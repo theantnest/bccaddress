@@ -1,4 +1,5 @@
 var packageObject = require('./package.json');
+var shell = require('shelljs');
 
 module.exports = function (grunt) {
 	// Project configuration.
@@ -76,4 +77,10 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks("grunt-combine");
 	grunt.loadNpmTasks('grunt-lineending');
 	grunt.registerTask("default", ["combine:single", "lineending"]);
+	grunt.registerTask('docker-build', "build docker image", function() {
+		shell.exec('docker build -t cashaddress .');
+	});
+	grunt.registerTask('docker-run', "run docker image", function() {
+		shell.exec('docker run -d -p 8888:80 cashaddress');
+	});
 };
