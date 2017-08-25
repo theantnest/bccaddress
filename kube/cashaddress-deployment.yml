@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: default
+  labels:
+    service: cashaddress
+  name: cashaddress
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        service: cashaddress
+    spec:
+      containers:
+      - image: zquestz/cashaddress
+        name: cashaddress
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "64Mi"
+      restartPolicy: Always
