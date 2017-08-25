@@ -6358,12 +6358,12 @@ Bitcoin.Util = {
 	</script>
 	<style type="text/css">
 .more { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAWdEVYdENyZWF0aW9uIFRpbWUAMDEvMDIvMTLltnQyAAAB1UlEQVQ4jYWTS04bQRCGv3q0x8gMYJCwknCGLDgLVwiH4grhLFaUXdhkQ0A8pBg/FOLpnmbhMYzxRKlNS1Vdf/31V5XknGnb+eXJCBjzbzu9OLu+azu845Opysej4wHmshF4uJ2TUrb3CV0gIBAKRboC5C2vdkDE9fdty6/xDegvXz+NgDbFUejZ+PjDgExmtpxS9vYwMe5u5iyX8RRoa5Ic+C4qx9KUN1MGu4E618yqJ5axAp44KA7ZL3eYzp/HKdVIw7WK8d6BuDvcod9TQlBEIOXEdPlElSoUJabIIs4Z7h9yNDwgqOMayLXw7epHVIBggrsgspZPUBQyiCgugRQji7TAVDF1XB2TlQoOYCqovkmpopS9fcoiM3ue0rOCYf8IU8NklWxiiOQ3EPXtWagIqo6KYWYEc4IGvMViA6RrnCJKVS9B8ypRHG1YKNa0Ur+C+MPt/I2BKWVZUO4FgvQ47PcptEDF+T2Z8TiZUMWIyGtpd+Bze5VTSqP57O/4YG+AN/RXbSiPkwmL5z/be/L+mM4vT2JKeUW7EXD1erMz/Lo4u77f0K9DDhdA1XG11jh9vWBb99Z9gAg5QZ2hzpmUa0RSW4f/gqSY0s3Vz+tufEjvHS8Tg6BXC7qVbQAAAABJRU5ErkJggg==)
-			no-repeat left center; width: 17px; height: 17px; display: inline-block; float: right; cursor: pointer; }
+            no-repeat left center; width: 17px; height: 17px; display: inline-block; float: right; cursor: pointer; }
 .less { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAK6wAACusBgosNWgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAWdEVYdENyZWF0aW9uIFRpbWUAMDEvMDIvMTLltnQyAAABuklEQVQ4ja2US25TQRBFT336OSEY5ESyBfEakNiLt0AW5S2QvQQxAiZIYBwSz/yByH7dxcB2bPMME+hJS/W5fetWVUtE8K/HfzdcXfdfqsr4onuGuRz4Jrdzcg6Gg9HfQYAxAqmlSMMlQJO5/oliE4AtQLcR++btZQ+wPVsvVXbTfXFGEMyWU9rVM0yMu/Gc5bJ+DdztxWcH3otKVzbPmyq5LnwfzSgEBMxlhqJEBFWVKKUgG66rur53oH7aOeWkUlJSRCBHZracssorlLXttHpCpzonaYukjmsiivDu08daAZIJ7oLIVg9BUQgQUVwSua5Z5AWmiqnj6pisVXAAU0F1J6WK0q6e024Fs4cplbXonFxgapisk00MkdiBqDd7oSKoOiqGmZHMSZrwPRYHIMfaKaKsyhI01oni6IaFYptSyiOIT27nOwaq5FyQrUAIC/nBhK+UErRSos55z4878CrneJyTnHOvquymf3mOb+hvy/jw+QuLh5/NORkORvsGrq77dc6xpr0RcH07y3oF8G04GN0f6HdEDhdA1XG1vXb6dsAa+3Z8AREiQwkoEeQoiBzocHDkf/wnvwC5IpRVsUDNUgAAAABJRU5ErkJggg==)
-			no-repeat left center; width: 17px; height: 17px; display: inline-block; float: right; }
+            no-repeat left center; width: 17px; height: 17px; display: inline-block; float: right; }
 a { position: relative; z-index: 20; }
 .right { text-align: right; }
-.walletarea { display: none; border: 2px solid #009900; }
+.walletarea, #paperarea { display: none; padding: 15px 2px; background-color: #f5f5f5; }
 hr { margin: 20px 0; border-top: 2px dashed #008000; }
 .keyarea { height: 110px; text-align: left; position: relative; padding: 5px; }
 .keyarea .public { float: left; }
@@ -6374,7 +6374,7 @@ hr { margin: 20px 0; border-top: 2px dashed #008000; }
 .keyarea .qrcode_public { display: inline-block; float: left; }
 .keyarea .qrcode_private { display: inline-block; position: relative; top: 28px; float: right; }
 .pubkeyhex { word-wrap: break-word; }
-body { font-family: Arial; }
+body { font-family: sans-serif; background-color: #eeeeee; margin: 0; }
 body, html { height: 99%; }
 .faqs ol { padding: 0 0 0 25px; }
 .faqs li { padding: 3px 0; }
@@ -6390,9 +6390,9 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #seedpoolarea { display: none; }
 #seedpooldisplay {  font-family: monospace; font-size: 1em; width: 640px; padding: 15px 5px; word-wrap: break-word; }
 .seedpoint { width: 6px; height: 6px; display: block; border-radius: 3px; background-color: #009900; position: absolute; z-index: 10; }
-#generate { font-family: monospace; font-size: 1.25em; height: 305px; text-align: left; position: relative; padding: 5px; border: 2px solid #009900; clear: both; }
+#generate { font-family: monospace; font-size: 1.25em; height: 305px; text-align: left; position: relative; padding: 20px 10px; clear: both; background-color: #f5f5f5; }
 #generate span { padding: 5px 5px 0 5px; }
-#generatekeyinput { position: relative; z-index: 20; }
+#generatekeyinput { position: relative; z-index: 20; display: block; width: 620px; margin-top: 5px; }
 #keyarea { height: 250px; }
 #keyarea .pubaddress { float: none; display: block; padding: 0; height: auto; }
 #keyarea .label { text-decoration: none; }
@@ -6406,46 +6406,46 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #singleshare { position: relative; top: -110px; float: left; left: 160px; color: #009900; font-weight: bolder; font-size: 200%;  }
 #singlesafety { text-align: left; padding: 5px; border-top: 2px solid #009900; top: -25px; position: relative; }
 
-#main { position: relative; text-align: center; margin: 0px auto; width: 808px; }
+#main { position: relative; text-align: center; margin: 0px auto; padding: 15px 0; width: 808px; background-color: #ffffff; border-top: 2px solid #009900; }
 #logo { width: 578px; height: 80px; }
-		
+        
 #paperarea { min-height: 120px; display: none; }
 #paperarea .keyarea { border: 2px solid #009900; border-top: 0; }
 #paperarea .keyarea.art { display: block; height: auto; border: 0; font-family: Ubuntu, Arial; padding: 0; margin: 0; }
 #paperarea .artwallet .papersvg { width: 486px; height: 261px; border: 0; margin: 0; padding: 0; left: 0; }
 #paperarea .artwallet .qrcode_public { top: 52px; left: 17px; z-index: 100; margin: 0; float: none; display: block; position: absolute; background-color: #FFFFFF; 
-		                                padding: 5px 5px 2px 5px; } 
+                                        padding: 5px 5px 2px 5px; } 
 #paperarea .artwallet .qrcode_private { top: 104px; left: 360px; z-index: 100; margin: 0; float: none; display: block; position: absolute; background-color: #FFFFFF; 
-		                                padding: 5px 5px 2px 5px; }
+                                        padding: 5px 5px 2px 5px; }
 #paperarea .artwallet .btcaddress  
 {
-	position: absolute; top: 240px; left: 139px; z-index: 100; font-size: 10px; background-color: transparent;
-	font-weight:bold; color: #000000; margin: 0;
-		-webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
-		-moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
-		-ms-transform-origin:top left;     -ms-transform:rotate(-90deg);
-		-o-transform-origin:top left;      -o-transform:rotate(-90deg);
-		transform-origin:top left;         transform:rotate(-90deg);
+    position: absolute; top: 240px; left: 139px; z-index: 100; font-size: 10px; background-color: transparent;
+    font-weight:bold; color: #000000; margin: 0;
+        -webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
+        -moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
+        -ms-transform-origin:top left;     -ms-transform:rotate(-90deg);
+        -o-transform-origin:top left;      -o-transform:rotate(-90deg);
+        transform-origin:top left;         transform:rotate(-90deg);
 } 
 #paperarea .artwallet .btcprivwif  
 {
-	position: absolute; top: 236px; left: 346px; z-index: 100; font-size: 7px; background-color: transparent;
-	font-weight:bold; color: #000000; margin: 0;  
-		-webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
-		-moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
-		-ms-transform-origin:top left;     -ms-transform:rotate(-90deg);
-		-o-transform-origin:top left;      -o-transform:rotate(-90deg);
-		transform-origin:top left;         transform:rotate(-90deg);
+    position: absolute; top: 236px; left: 346px; z-index: 100; font-size: 7px; background-color: transparent;
+    font-weight:bold; color: #000000; margin: 0;  
+        -webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
+        -moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
+        -ms-transform-origin:top left;     -ms-transform:rotate(-90deg);
+        -o-transform-origin:top left;      -o-transform:rotate(-90deg);
+        transform-origin:top left;         transform:rotate(-90deg);
 }
 #paperarea .artwallet .btcencryptedkey
 {
-	position: absolute; top: 174px; left: 332px; z-index: 100; font-size: 8px; background-color: transparent;
-	font-weight:bold; color: #000000; margin: 0;  
-		-webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
-		-moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
-		-ms-transform-origin:top left;     -ms-transform:rotate(-90deg);
-		-o-transform-origin:top left;      -o-transform:rotate(-90deg);
-		transform-origin:top left;         transform:rotate(-90deg);
+    position: absolute; top: 174px; left: 332px; z-index: 100; font-size: 8px; background-color: transparent;
+    font-weight:bold; color: #000000; margin: 0;  
+        -webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
+        -moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
+        -ms-transform-origin:top left;     -ms-transform:rotate(-90deg);
+        -o-transform-origin:top left;      -o-transform:rotate(-90deg);
+        transform-origin:top left;         transform:rotate(-90deg);
 }
 #bulkarea .body { padding: 5px 0 0 0; }
 #bulkarea .format { font-style: italic; font-size: 90%; }
@@ -6503,41 +6503,51 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #busyblock.busy { display: block; }
 .hide { display: none; }
 .show { display: block; }
-		
-@media screen 	
+
+@media screen
 {
-	#tagline { margin: 0 0 15px 0; font-style: italic; }
-	.menu  
-	{
-	    text-align: left; margin: 0; padding: 0; display: block;
-	    background-color: #009900; /* # 009900 # 53c100 */
-	    border-top-left-radius: 5px; border-top-right-radius: 5px;
-	}
-	.menu .tab 
-	{
-	    position: relative; display: inline-block; border: 0px solid red;
-	    margin: 0; list-style: none; z-index: 110; cursor: pointer; 
-	    top: 1px; padding: 10px 20px; width: 162px; text-align: center;
-	}
-	.menu .tab.selected  
-	{
-	    cursor: default; 
-	    background-color: #FFF; margin: 6px 16px; padding: 4px; border-radius: 5px; 
-	}
-	.menu .tab:hover  
-	{
-	    background-color: #FFF; margin: 6px 16px; padding: 4px; border-radius: 5px; 
-	}
-	.menu .tab.selected:hover { color: #000; }
-	
+    #tagline { margin: 0 0 15px 0; font-style: italic; }
+    .menu
+    {
+        text-align: left; margin: 0 0 10px 0; padding: 0; display: block;
+        background-color: #ffffff;
+    }
+    .menu .tab
+    {
+        position: relative;
+        display: inline-block;
+        list-style: none; z-index: 110; cursor: pointer; 
+        padding: 10px 13px; margin: 5px; width: 162px; text-align: center;
+        border-radius: 2px;
+        border: 2px solid #e5e5e5;
+        transition: all .2s ease;
+    }
+    .menu .tab.selected,
+    .menu .tab:hover
+    {
+        border-color: transparent;
+        box-shadow: 0 2px 7px rgba(0,0,0,.2);
+    }
+    .menu .tab:hover
+    {
+        background-color: #FFF;
+        color: #009900;
+    }
+    .menu .tab.selected
+    {
+        cursor: default;
+        background-color: #f9f9f9;
+        color: #009900; font-weight: bold;
+    }
+
     .pagebreak { height: 50px; }
-	.commands { border-bottom: 2px solid #009900;  padding: 10px 2px; margin-bottom: 0; }
-	.commands .row { padding: 0 0; text-align: left; } 
-	.commands .row.extra { padding-top: 6px; }
-	.commands span { padding: 0 10px; }
-	.commands span.print { float: right; position: relative; z-index: 20; }
-	.commands span.right { float: right; }
-	.expandable { padding: 10px 15px; text-align: left; cursor: pointer; }
+    .commands { border-bottom: 2px solid #009900; padding: 10px 2px; }
+    .commands .row { padding: 0 0; text-align: left; } 
+    .commands .row.extra { padding-top: 6px; }
+    .commands span { padding: 0 10px; }
+    .commands span.print { float: right; position: relative; z-index: 20; }
+    .commands span.right { float: right; }
+    .expandable { padding: 10px 15px; text-align: left; cursor: pointer; }
 
     #menu { visibility: visible; font-size: 90%; }
     #culturemenu { text-align: center; padding: 0 10px 5px 10px; margin-bottom: 3px; font-size: 90%; }
@@ -6545,56 +6555,55 @@ input[type=checkbox] { position: relative; z-index: 20; }
     #culturemenu .selected { text-decoration: none; color: #000000; }
     .culturemenurow { padding: 2px 0; }
 
-	#braincommands .row .label { width: 200px; display: inline-block; }
-	#braincommands .notes { font-size: 80%; display: block; padding: 5px 10px; }
-	#brainpassphrase { width: 280px; position: relative; z-index: 20; }
-	#brainpassphraseconfirm { width: 280px; position: relative; z-index: 20; }
+    #braincommands .row .label { width: 200px; display: inline-block; }
+    #braincommands .notes { font-size: 80%; display: block; padding: 5px 10px; }
+    #brainpassphrase { width: 280px; position: relative; z-index: 20; }
+    #brainpassphraseconfirm { width: 280px; position: relative; z-index: 20; }
     #brainpassphraseshow { position: relative; z-index: 20; }
     #brainview { position: relative; z-index: 20; }
-	#brainwarning {  }
-	#detailcommands { padding: 10px 0; }
-	#detailcommands span { padding: 0 10px; }
-	#detailprivkey { width: 460px; position: relative; z-index: 20; }
-	#detailprivkeypassphrase { width: 250px; position: relative; z-index: 20; }
-	#detailcommands .button { position: relative; z-index: 20; }
-	#detailbip38encryptspan { display: none; }
-	.paper .commands { border: 2px solid #009900; }
-	#bulkstartindex, #paperlimit, #paperlimitperpage { width: 35px; } 
-	#bulklimit { width: 45px; }
-			
-	.footer { font-size: 90%; clear: both; width: 770px; padding: 10px 0 10px 0; margin: 50px auto auto auto; }
-	.footer div span.item { padding: 10px; }
-	.footer .authorbtc { float: left; width: 470px; }
-	.footer .authorbtc span.item { text-align: left; display: block; padding: 0 20px; }
-	.footer .authorbtc div { position: relative; z-index: 100; }
-	.footer .authorpgp { position: relative; }
-	.footer .authorpgp span.item { text-align: right; display: block; padding: 0 20px; }
-	.footer .copyright { font-size: 80%; clear: both; padding: 5px 0; }
-	.footer .copyright span { padding: 10px 2px; }
+    #brainwarning {  }
+    #detailcommands { padding: 10px 0; }
+    #detailcommands span { padding: 0 10px; }
+    #detailprivkey { width: 460px; position: relative; z-index: 20; }
+    #detailprivkeypassphrase { width: 250px; position: relative; z-index: 20; }
+    #detailcommands .button { position: relative; z-index: 20; }
+    #detailbip38encryptspan { display: none; }
+    #bulkstartindex, #paperlimit, #paperlimitperpage { width: 35px; } 
+    #bulklimit { width: 45px; }
+            
+    .footer { font-size: 90%; clear: both; width: 770px; padding: 10px 0 10px 0; margin: 50px auto auto auto; }
+    .footer div span.item { padding: 10px; }
+    .footer .authorbtc { float: left; width: 470px; }
+    .footer .authorbtc span.item { text-align: left; display: block; padding: 0 20px; }
+    .footer .authorbtc div { position: relative; z-index: 100; }
+    .footer .authorpgp { position: relative; }
+    .footer .authorpgp span.item { text-align: right; display: block; padding: 0 20px; }
+    .footer .copyright { font-size: 80%; clear: both; padding: 5px 0; }
+    .footer .copyright span { padding: 10px 2px; }
     .footer .tooltip { display: none; text-align: left; border: 2px solid green; background-color: #FFFFF6; margin: 5px; padding: 10px; top: 0px; position: relative;  }
-	.footer .statusgood { color: green; font-weight: bold; }
+    .footer .statusgood { color: green; font-weight: bold; }
     .footer .statuswarn { color: orange; font-weight: bold; }
-	.footer .statusbad { color: red; font-weight: bold; }
+    .footer .statusbad { color: red; font-weight: bold; }
     .footer .statusicon { background-color: none; font-size: 120%; padding: 1px 2px; }
     .footer .statusicon:hover { background-color: green; cursor: pointer; }
 }
 @media print
 {
-	#main { width: auto; }
-	#singlearea { border: 0; }
-	#singlesafety { border: 0; }
-	#paperarea .keyarea:first-child { border-top: 2px solid #009900; }
-	#paperarea .keyarea.art:first-child { border: 0; }
-	.pagebreak { height: 1px; }
-	.paper #logo { display: none; }
-	.menu, .footer, .commands, #tagline, #faqs, #culturemenu { display: none; }
-	#detailprivwif { width: 285px; word-wrap: break-word; }
-	#detailprivwifcomp { width: 310px; word-wrap: break-word; text-align: right; }
-	#detailarea .privqr .item.right { width: 310px; }
-	#detailarea .privqr .item { width: 285px; }
-	#detailarea .notes { display: none; }
-	#seedpoolarea { display: none; }
-	.faq { display: none; }
+    #main { width: auto; border: none; }
+    #singlearea { border: 0; }
+    #singlesafety { border: 0; }
+    #paperarea .keyarea:first-child { border-top: 2px solid #009900; }
+    #paperarea .keyarea.art:first-child { border: 0; }
+    .pagebreak { height: 1px; }
+    .paper #logo { display: none; }
+    .menu, .footer, .commands, #tagline, #faqs, #culturemenu { display: none; }
+    #detailprivwif { width: 285px; word-wrap: break-word; }
+    #detailprivwifcomp { width: 310px; word-wrap: break-word; text-align: right; }
+    #detailarea .privqr .item.right { width: 310px; }
+    #detailarea .privqr .item { width: 285px; }
+    #detailarea .notes { display: none; }
+    #seedpoolarea { display: none; }
+    .faq { display: none; }
 }
 
 	</style>

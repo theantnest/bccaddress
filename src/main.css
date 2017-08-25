@@ -4,7 +4,7 @@
             no-repeat left center; width: 17px; height: 17px; display: inline-block; float: right; }
 a { position: relative; z-index: 20; }
 .right { text-align: right; }
-#paperarea, .walletarea { display: none; padding: 15px 2px; background-color: #f5f5f5; }
+.walletarea, #paperarea { display: none; padding: 15px 2px; background-color: #f5f5f5; }
 hr { margin: 20px 0; border-top: 2px dashed #008000; }
 .keyarea { height: 110px; text-align: left; position: relative; padding: 5px; }
 .keyarea .public { float: left; }
