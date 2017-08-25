@@ -1,4 +1,5 @@
 var packageObject = require('./package.json');
+var shell = require('shelljs');
 
 module.exports = function (grunt) {
 	// Project configuration.
@@ -7,7 +8,7 @@ module.exports = function (grunt) {
 		combine: {
 			single: {
 				input: "./src/bitaddress-ui.html",
-				output: "./bitaddress.org.html",
+				output: "./cashaddress.org.html",
 				tokens: [
 					{ token: "//biginteger.js", file: "./src/biginteger.js" },
 					{ token: "//bitcoinjs-lib.js", file: "./src/bitcoinjs-lib.js" },
@@ -66,7 +67,7 @@ module.exports = function (grunt) {
 					eol: 'lf'
 				},
 				files: {                // Files to process
-					'./bitaddress.org.html': ['./bitaddress.org.html']
+					'./cashaddress.org.html': ['./cashaddress.org.html']
 				}
 			}
 		}
@@ -76,4 +77,10 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks("grunt-combine");
 	grunt.loadNpmTasks('grunt-lineending');
 	grunt.registerTask("default", ["combine:single", "lineending"]);
+	grunt.registerTask('docker-build', "build docker image", function() {
+		shell.exec('docker build -t cashaddress .');
+	});
+	grunt.registerTask('docker-run', "run docker image", function() {
+		shell.exec('docker run -d -p 8888:80 cashaddress');
+	});
 };
