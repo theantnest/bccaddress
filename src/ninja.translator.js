@@ -85,17 +85,17 @@
 
 		extractEnglishFromDomAndUpdateDictionary: function () {
 			var english = translator.translations["en"];
-			var spanish = translator.translations["es"];
-			var spanishClone = {};
-			for (var key in spanish) {
-				spanishClone[key] = spanish[key];
+			var keyLang = translator.translations["hu"];
+			var langClone = {};
+			for (var key in keyLang) {
+				langClone[key] = keyLang[key];
 			}
 			var newLang = {};
 			for (var key in english) {
 				newLang[key] = english[key];
-				delete spanishClone[key];
+				delete langClone[key];
 			}
-			for (var key in spanishClone) {
+			for (var key in langClone) {
 				if (document.getElementById(key)) {
 					if (document.getElementById(key).value) {
 						newLang[key] = document.getElementById(key).value;
@@ -110,17 +110,17 @@
 
 		showEnglishJson: function () {
 			var english = ninja.translator.translations["en"];
-			var spanish = ninja.translator.translations["es"];
-			var spanishClone = {};
-			for (var key in spanish) {
-				spanishClone[key] = spanish[key];
+			var keyLang = ninja.translator.translations["hu"];
+			var langClone = {};
+			for (var key in keyLang) {
+				langClone[key] = keyLang[key];
 			}
 			var newLang = {};
 			for (var key in english) {
 				newLang[key] = english[key];
-				delete spanishClone[key];
+				delete langClone[key];
 			}
-			for (var key in spanishClone) {
+			for (var key in langClone) {
 				if (document.getElementById(key)) {
 					if (document.getElementById(key).value) {
 						newLang[key] = document.getElementById(key).value;
