@@ -1,80 +1,80 @@
 ﻿(function (translator) {
 	translator.translations["es"] = {
 		// javascript alerts or messages
-		"testneteditionactivated": "Testnet se activa",
+		"testneteditionactivated": "Testnet activada",
 		"paperlabelbitcoinaddress": "Dirección Bitcoin:",
 		"paperlabelprivatekey": "Clave privada:",
 		"paperlabelencryptedkey": "Clave privada cifrada (contraseña necesaria)",
 		"bulkgeneratingaddresses": "Generación de direcciones... ",
 		"brainalertpassphrasetooshort": "La contraseña introducida es demasiado corta.\n\n",
-		"brainalertpassphrasewarning": "Aviso: Es importante escoger una contraseña fuerte para evitar ataques de fuerza bruta a fin de adivinarla y robar tus bitcoins.",
+		"brainalertpassphrasewarning": "Aviso: Es importante escoger una contraseña robusta para evitar ataques de fuerza bruta que buscan descifrarla y robar sus bitcoins.",
 		"brainalertpassphrasedoesnotmatch": "Las contraseñas no coinciden.",
-		"detailalertnotvalidprivatekey": "El texto que has introducido no es una clave privada válida",
-		"detailconfirmsha256": "El texto que has introducido no es una clave privada válida\n\n¿Quieres usar ese texto como si fuera una contraseña y generar una clave privada usando un hash SHA256 de tal contraseña?\n\nAviso: Es importante escoger una contraseña fuerte para evitar ataques de fuerza bruta a fin de adivinarla y robar tus bitcoins.",
-		"bip38alertincorrectpassphrase": "Incorrect passphrase for this encrypted private key.", //TODO: please translate
-		"bip38alertpassphraserequired": "Passphrase required for BIP38 key", //TODO: please translate
+		"detailalertnotvalidprivatekey": "El texto introducido no es una clave privada válida",
+		"detailconfirmsha256": "El texto introducido no es una clave privada válida\n\n¿Quiere usar ese texto como si fuera una contraseña y generar una clave privada usando un hash SHA256 de esa contraseña?\n\nAviso: Es importante escoger una contraseña robusta para evitar ataques de fuerza bruta que buscan descifrarla y robar sus bitcoins.",
+		"bip38alertincorrectpassphrase": "Contraseña incrrecta para esta clave privada encriptada.", // DONE
+		"bip38alertpassphraserequired": "Contraseña requerida para la llave BIP38", // Could you give me some context for this phrase? I feel that it isn't quite right yet.
 		"vanityinvalidinputcouldnotcombinekeys": "Entrada no válida. No se puede combinar llaves.",
-		"vanityalertinvalidinputpublickeysmatch": "Entrada no válida. La clave pública de ambos coincidan entradas. Debe introducir dos claves diferentes.",
+		"vanityalertinvalidinputpublickeysmatch": "Entrada no válida. La clave pública de ambos coincidan entradas. Debe introducir dos claves diferentes.", // Could you give me the whole phrase in English, so to convey its meaning properly?
 		"vanityalertinvalidinputcannotmultiple": "Entrada no válida. No se puede multiplicar dos claves públicas. Seleccione 'Añadir' para agregar dos claves públicas para obtener una dirección bitcoin.",
 		"vanityprivatekeyonlyavailable": "Sólo está disponible cuando se combinan dos claves privadas",
 		"vanityalertinvalidinputprivatekeysmatch": "Entrada no válida. La clave privada de ambos coincidan entradas. Debe introducir dos claves diferentes.",
 
 		// header and menu html
-		"tagline": "Generador de carteras Bitcoin de código abierto en lado de cliente con Javascript",
+		"tagline": "Generador de carteras Bitcoin de código abierto en lado de cliente con Javascript", // Could you give me the whole phrase in English, so to convey its meaning properly?
 		"generatelabelbitcoinaddress": "Generando dirección Bitcoin...",
-		"generatelabelmovemouse": "Mueve un poco el ratón para crear entropía...",
-		"generatelabelkeypress": "OR type some random characters into this textbox", //TODO: please translate
-		"singlewallet": "Una sola cartera",
+		"generatelabelmovemouse": "Mueve un poco el ratón para crear movimientos al azar...",
+		"generatelabelkeypress": "O BIEN escriba algunos caracteres al azar en este recuadro.", // DONE
+		"singlewallet": "Cartera individual", // Are you thinking of Spanish clients or Latin American clients? I ask because for spanish wallet=cartera and for LATAM wallet=billetera.
 		"paperwallet": "Cartera en papel",
-		"bulkwallet": "Direcciones en masa",
+		"bulkwallet": "Cartera con múltiples direcciones", // I have a feeling this name speaks more of its concept... I don't know if BULK translates as accurately to Spanish
 		"brainwallet": "Cartera mental",
 		"vanitywallet": "Cartera personalizada",
-		"splitwallet": "Split Wallet", //TODO: please translate
+		"splitwallet": "Cartera separada", // DONE
 		"detailwallet": "Detalles de la cartera",
 
 		// footer html
 		"footerlabeldonations": "Donaciones:",
-		"footerlabeltranslatedby": "Traducción: <b>12345</b>Vypv2QSmuRXcciT5oEB27mPbWGeva",
+		"footerlabeltranslatedby": "Traducción: <b>12345</b>Vypv2QSmuRXcciT5oEB27mPbWGeva", // Should I put my name here?
 		"footerlabelpgp": "PGP",
 		"footerlabelversion": "Histórico de versiones",
 		"footerlabelgithub": "Repositorio GitHub",
 		"footerlabelgithubzip": "zip",
 		"footerlabelsig": "sig",
 		"footerlabelcopyright1": "Copyright bitaddress.org.",
-		"footerlabelcopyright2": "Copyright del código JavaScript: en el fuente.",
-		"footerlabelnowarranty": "Sin garantía.",
+		"footerlabelcopyright2": "Copyright del código JavaScript: en el fuente.", // Could you give me the original phrase here?
+		"footerlabelnowarranty": "Sin garantías.",
 
 		// status html
-		"statuslabelcryptogood": "&#10004; Good!", //TODO: please translate
-		"statuslabelcryptogood1": "Your browser can generate cryptographically random keys using window.crypto.getRandomValues", //TODO: please translate
-		"statusokcryptogood": "OK", //TODO: please translate
-		"statuslabelcryptobad": "&times; Oh no!", //TODO: please translate
-		"statuslabelcryptobad1": "Your browser does NOT support window.crypto.getRandomValues. You should use a more modern browser with this generator to increase the security of the keys generated.",
-		"statusokcryptobad": "OK", //TODO: please translate
-		"statuslabelunittestsgood": "&#10004; Good!", //TODO: please translate
-		"statuslabelunittestsgood1": "All synchronous unit tests passed.", //TODO: please translate
-		"statusokunittestsgood": "OK", //TODO: please translate
-		"statuslabelunittestsbad": "&times; Oh no!", //TODO: please translate
-		"statuslabelunittestsbad1": "Some synchronous unit tests DID NOT pass. You should find another browser to use with this generator.", //TODO: please translate
-		"statusokunittestsbad": "OK", //TODO: please translate
-		"statuslabelprotocolgood": "&#10004; Good!", //TODO: please translate
-		"statuslabelprotocolgood1": "You are running this generator from your local computer. <br />Tip: Double check you are offline by trying ", //TODO: please translate
-		"statusokprotocolgood": "OK", //TODO: please translate
-		"statuslabelprotocolbad": "&#9888; Think twice!", //TODO: please translate
-		"statuslabelprotocolbad1": "You appear to be running this generator online from a live website. For valuable wallets it is recommended to", //TODO: please translate
-		"statuslabelprotocolbad2": "download", //TODO: please translate
-		"statuslabelprotocolbad3": "the zip file from GitHub and run this generator offline as a local html file.", //TODO: please translate
-		"statusokprotocolbad": "OK", //TODO: please translate
-		"statuslabelkeypool1": "This is a log of all the Bitcoin Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
-		"statuskeypoolrefresh": "Refresh", //TODO: please translate
-		"statusokkeypool": "OK", //TODO: please translate
+		"statuslabelcryptogood": "&#10004; Bien!", // DONE
+		"statuslabelcryptogood1": "Su navegador puede generar llaves criptográficas aleatorias usando window.crypto.getRandomValues", // DONE. I don't know if the command mentioned requires translation as well.
+		"statusokcryptogood": "OK", // Doesn't need translation.
+		"statuslabelcryptobad": "&times; ¡Oh no!", // Doesn't need translation.
+		"statuslabelcryptobad1": "Su navegador NO soporta window.crypto.getRandomValues. Debe usar un navegador actualizado con este generador para incrementar la seguridad de las llaves generadas.",
+		"statusokcryptobad": "OK", // Doesn't need translation.
+		"statuslabelunittestsgood": "&#10004; ¡Bien!", // DONE
+		"statuslabelunittestsgood1": "Todas las pruebas sincrónicas han sido superadas.", // DONE
+		"statusokunittestsgood": "OK", // Doesn't need translation.
+		"statuslabelunittestsbad": "&times; ¡Oh no!", // Doesn't need translation.
+		"statuslabelunittestsbad1": "Algunas unidades de las pruebas sincrónicas NO fueron superadas. Debe usar un navegador actualizado con este generador.", // DONE
+		"statusokunittestsbad": "OK", // DONE
+		"statuslabelprotocolgood": "&#10004; ¡Bien!", // DONE
+		"statuslabelprotocolgood1": "Está ejecutando este generador desde su computador local. <br />Pista: Asegúrese de que esta offine al intentarlo.", // DONE. Even though I get the feeling that this phrase is missing something. Could you give me some more context to it?
+		"statusokprotocolgood": "OK", // Doesn't need translation.
+		"statuslabelprotocolbad": "&#9888; ¡Piénselo dos veces!", // DONE
+		"statuslabelprotocolbad1": "Al parecer está ejecutando este generador en línea desde un sitio en vivo. Para las carteras valiosas se recomienda", // DONE
+		"statuslabelprotocolbad2": "descargar", // DONE
+		"statuslabelprotocolbad3": "el archivo zip desde GitHub y ejecutar este generador offline como un archivo html local.", // DONE
+		"statusokprotocolbad": "OK", // Doesn't need translation.
+		"statuslabelkeypool1": "Este es un registro de todas las direcciones Bitcoin y Llaves privadas que ud. ha generado durante su sesión actual. Si actualiza la página, esto creará una nueva sesión.", // DONE
+		"statuskeypoolrefresh": "Actualizar", // DONE
+		"statusokkeypool": "OK", // Doesn't need translation.
 
 		// single wallet html
 		"newaddress": "Generar dirección",
 		"singleprint": "Imprimir",
 		"singlelabelbitcoinaddress": "Dirección Bitcoin",
 		"singlelabelprivatekey": "Clave privada (formato para importar):",
-		"singletip1": "<b>A Bitcoin wallet</b> is as simple as a single pairing of a Bitcoin address with it's corresponding Bitcoin private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
+		"singletip1": "<b>Una cartera Bitcoin</b> es algo tan sencillo como la unión de una dirección Bitcoin con su Llave privada Bitcoin correspondiente. Una cartera de este tipo ha sido generada para ud. en su navegador web y se muestra en la parte superior.", // DONE
 		"singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Bitcoin address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA256 hash of this HTML with the SHA256 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.	Your Bitcoin private key should be kept a secret. Whomever you share the private key with has access to spend all the bitcoins associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
 		"singletip3": "<b>Add funds</b> to this wallet by instructing others to send bitcoins to your Bitcoin address.", //TODO: please translate
 		"singletip4": "<b>Check your balance</b> by going to blockchain.info or blockexplorer.com and entering your Bitcoin address.", //TODO: please translate
