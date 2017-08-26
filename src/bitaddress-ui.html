@@ -138,7 +138,6 @@
 			<li class="tab" id="singlewallet" onclick="ninja.tab.select(this);">Single Wallet
 			<li class="tab" id="paperwallet" onclick="ninja.tab.select(this);">Paper Wallet
 			<li class="tab" id="bulkwallet" onclick="ninja.tab.select(this);">Bulk Wallet
-			<li class="tab" id="brainwallet" onclick="ninja.tab.select(this);">Brain Wallet
 			<li class="tab" id="vanitywallet" onclick="ninja.tab.select(this);">Vanity Wallet
 			<li class="tab" id="splitwallet" onclick="ninja.tab.select(this);">Split Wallet
 			<li class="tab" id="detailwallet" onclick="ninja.tab.select(this);">Wallet Details
@@ -249,44 +248,6 @@
 							<li id="bulklabela2li4">You now need to be notified when the payment arrives. Google "bitcoin payment notification" and subscribe to at least one bitcoin payment notification service. There are various services that will notify you via Web Services, API, SMS, Email, etc. Once you receive this notification, which could be programmatically automated, you can process the customer's order. To manually check if a payment has arrived you can use Block Explorer. Replace THEADDRESSGOESHERE with the bitcoin address you are checking. It could take between 10 minutes to one hour for the transaction to be confirmed.<br />http://www.blockexplorer.com/address/THEADDRESSGOESHERE<br /><br />Unconfirmed transactions can be viewed at: http://blockchain.info/ <br />You should see the transaction there within 30 seconds.</li>
 							<li id="bulklabela2li5">Bitcoins will safely pile up on the block chain. Use the original wallet file you generated in step 1 to spend them.</li>
 							</ol>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div id="brainarea" class="walletarea">
-				<div id="braincommands" class="commands">
-					<div class="row">
-						<span id="brainlabelenterpassphrase" class="label"><label for="brainpassphrase">Enter Passphrase: </label></span>
-						<input tabindex="1" type="password" id="brainpassphrase" value="" onfocus="this.select();" onkeypress="if (event.keyCode == 13) ninja.wallets.brainwallet.view();" />
-						<span><label id="brainlabelshow" for="brainpassphraseshow">Show?</label> <input type="checkbox" id="brainpassphraseshow" onchange="ninja.wallets.brainwallet.showToggle(this);" /></span>
-						<span class="print"><input type="button" name="print" id="brainprint" value="Print" onclick="window.print();" /></span>
-					</div>
-					<div class="row extra">
-						<span class="label" id="brainlabelconfirm"><label for="brainpassphraseconfirm">Confirm Passphrase: </label></span>
-						<input tabindex="2" type="password" id="brainpassphraseconfirm" value="" onfocus="this.select();" onkeypress="if (event.keyCode == 13) ninja.wallets.brainwallet.view();" />
-						
-						<span id="brainalgorithm" class="notes right">Algorithm: SHA256(passphrase)</span>
-					</div>
-					<div class ="row extra">
-						<span><label tabindex="3" id="brainlabelcompressed" for="braincompressed">Compressed address?</label> <input type="checkbox" id="braincompressed" /></span>
-						<span><input tabindex="4" type="button" id="brainview" value="View" onclick="ninja.wallets.brainwallet.view();" /></span>
-					</div>
-					<div class="row extra"><span id="brainwarning"></span></div>
-				</div>
-				<div id="brainkeyarea" class="keyarea">
-					<div class="public">
-						<div id="brainqrcodepublic" class="qrcode_public"></div>
-						<div class="pubaddress">
-							<span class="label" id="brainlabelbitcoinaddress">Bitcoin Address:</span>
-							<span class="output" id="brainbtcaddress"></span>
-						</div>
-					</div>
-					<div class="private">
-						<div id="brainqrcodeprivate" class="qrcode_private"></div>
-						<div class="privwif">
-							<span class="label" id="brainlabelprivatekey">Private Key (Wallet Import Format):</span>
-							<span class="output" id="brainbtcprivwif"></span>
 						</div>
 					</div>
 				</div>
@@ -586,9 +547,6 @@
 	</script>
 	<script type="text/javascript">
 //ninja.bulkwallet.js
-	</script>
-	<script type="text/javascript">
-//ninja.brainwallet.js
 	</script>
 	<script type="text/javascript">
 //ninja.vanitywallet.js
