@@ -212,14 +212,16 @@ input[type=checkbox] { position: relative; z-index: 20; }
     #bulkstartindex, #paperlimit, #paperlimitperpage { width: 35px; } 
     #bulklimit { width: 45px; }
             
-    .footer { font-size: 90%; clear: both; width: 770px; padding: 10px 0 10px 0; margin: 50px auto auto auto; }
+    .keypooltextarea { width: 100%; }
+
+    .footer { font-size: 90%; clear: both; width: 770px; padding: 10px 0 10px 0; margin: 20px auto auto auto; }
     .footer div span.item { padding: 10px; }
-    .footer .authorbtc { float: left; width: 470px; }
+    .footer .authorbtc { float: left; width: 450px; }
     .footer .authorbtc span.item { text-align: left; display: block; padding: 0 20px; }
     .footer .authorbtc div { position: relative; z-index: 100; }
-    .footer .authorpgp { position: relative; }
-    .footer .authorpgp span.item { text-align: right; display: block; padding: 0 20px; }
-    .footer .copyright { font-size: 80%; clear: both; padding: 5px 0; }
+    .footer .github { position: relative; }
+    .footer .github span.item { text-align: right; display: block; padding: 0 20px; }
+    .footer .copyright { font-size: 80%; clear: both; padding: 20px 0 0 0; }
     .footer .copyright span { padding: 10px 2px; }
     .footer .tooltip { display: none; text-align: left; border: 2px solid green; background-color: #FFFFF6; margin: 5px; padding: 10px; top: 0px; position: relative;  }
     .footer .statusgood { color: green; font-weight: bold; }
