@@ -85,6 +85,7 @@
 		"singletip5": "<b>Puede gastar sus Bitcoins</b> visitando la página blockchain.info y desde ahí retirar todos los fondos asociados a su clave privada y enviarlos a su cuenta en su sitio web. También puede utilizar sus fondos descargando alguno de los populares clientes Bitcoin p2p e importando su clave privada a la cartera de cliente p2p. Tenga en cuenta cuando importe su clave única a un cliente Bitcoin p2p y realice gastos su clave será agrupada y empaquetada con otras claves privadas en la cartera de cliente p2p. Cuando realice una transacción su cambio será enviado a otra dirección Bitcoin ubicada dentro de la cartera de cliente p2p. Usted deberá realizar un respaldo de la cartera de cliente p2p y mantenerla a salvo ya que sus Bitcoin restantes serán almacenadas ahí. Satoshi recomendó que uno nunca debiese borrar una cartera.",
 		"singleshare": "COMPARTIR",
 		"singlesecret": "SECRETO",
+		"combinelabelentershares": "Introduzca las acciones disponibles (espacios en blanco separados)",
 
 		// paper wallet html
 		"paperlabelhideart": "Ocultar diseño",
