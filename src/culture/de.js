@@ -3,8 +3,8 @@
 		// javascript alerts or messages
 		"testneteditionactivated": "TESTNET AKTIVIERT",
 		"paperlabelbitcoinaddress": "Bitcoin Cash-Adresse:",
-		"paperlabelprivatekey": "Privater Schl&uuml;ssel:",
-		"paperlabelencryptedkey": "Verschl&uuml;sselter privater Schl&uuml;ssel (Passwort ben&ouml;tigt)",
+		"paperlabelprivatekey": "Privater Schlüssel:",
+		"paperlabelencryptedkey": "Verschlüsselter privater Schlüssel (Passwort ben&ouml;tigt)",
 		"bulkgeneratingaddresses": "Adressen erstellen... ",
 		"detailalertnotvalidprivatekey": "Der eingegebene Text ist kein gültiger privater Schlüssel.",
 		"detailconfirmsha256": "Der eingegebene Text ist kein gültiger privater Schlüssel!\n\nMöchtest du den eingegebenen Text als Passphrase verwenden, um mithilfe dessen SHA256-Hash einen privaten Schlüssel zu erstellen?\n\nHinweis: Eine längere Passphrase sch&uuml;tzt besser vor Brute-Force-Attacken, bei denen auf gut Glück Passphrasen probiert werden.",
@@ -20,12 +20,12 @@
 		"tagline": "Offener, client-seitiger Bitcoin Cash-Wallet-Generator in JavaScript",
 		"generatelabelbitcoinaddress": "Erstelle Bitcoin Cash-Wallet...",
 		"generatelabelmovemouse": "Bewege deine Maus umher, um die Zuf&auml;lligkeit zu erh&ouml;hen...",
-		"generatelabelkeypress": "OR type some random characters into this textbox", //TODO: please translate
+		"generatelabelkeypress": "ODER geben Sie einige zufällige Zeichen in dieses Textfeld ein",
 		"singlewallet": "Einzelnes Wallet",
 		"paperwallet": "Papier-Wallet",
 		"bulkwallet": "Massen-Wallet",
 		"vanitywallet": "Personalisiertes Wallet",
-		"splitwallet": "Split Wallet", //TODO: please translate
+		"splitwallet": "Geteiltes Wallet",
 		"detailwallet": "Walletdetails",
 
 		// footer html
@@ -41,29 +41,29 @@
 		"footerlabelnowarranty": "Ohne Gew&auml;hr.",
 
 		// status html
-		"statuslabelcryptogood": "&#10004; Good!", //TODO: please translate
+		"statuslabelcryptogood": "&#10004; Gut!",
 		"statuslabelcryptogood1": "Your browser can generate cryptographically random keys using window.crypto.getRandomValues", //TODO: please translate
-		"statusokcryptogood": "OK", //TODO: please translate
-		"statuslabelcryptobad": "&times; Oh no!", //TODO: please translate
+		"statusokcryptogood": "OK",
+		"statuslabelcryptobad": "&times; Oh nein!",
 		"statuslabelcryptobad1": "Your browser does NOT support window.crypto.getRandomValues. You should use a more modern browser with this generator to increase the security of the keys generated.",
-		"statusokcryptobad": "OK", //TODO: please translate
-		"statuslabelunittestsgood": "&#10004; Good!", //TODO: please translate
+		"statusokcryptobad": "OK",
+		"statuslabelunittestsgood": "&#10004; Gut!",
 		"statuslabelunittestsgood1": "All synchronous unit tests passed.", //TODO: please translate
-		"statusokunittestsgood": "OK", //TODO: please translate
-		"statuslabelunittestsbad": "&times; Oh no!", //TODO: please translate
+		"statusokunittestsgood": "OK",
+		"statuslabelunittestsbad": "&times; Oh nein!", //TODO: please translate
 		"statuslabelunittestsbad1": "Some synchronous unit tests DID NOT pass. You should find another browser to use with this generator.", //TODO: please translate
-		"statusokunittestsbad": "OK", //TODO: please translate
+		"statusokunittestsbad": "OK",
 		"statuslabelprotocolgood": "&#10004; Good!", //TODO: please translate
 		"statuslabelprotocolgood1": "You are running this generator from your local computer. <br />Tip: Double check you are offline by trying ", //TODO: please translate
-		"statusokprotocolgood": "OK", //TODO: please translate
-		"statuslabelprotocolbad": "&#9888; Think twice!", //TODO: please translate
+		"statusokprotocolgood": "OK",
+		"statuslabelprotocolbad": "&#9888; Bitte überdenken!",
 		"statuslabelprotocolbad1": "You appear to be running this generator online from a live website. For valuable wallets it is recommended to", //TODO: please translate
-		"statuslabelprotocolbad2": "download", //TODO: please translate
+		"statuslabelprotocolbad2": "download",
 		"statuslabelprotocolbad3": "the zip file from GitHub and run this generator offline as a local html file.", //TODO: please translate
-		"statusokprotocolbad": "OK", //TODO: please translate
+		"statusokprotocolbad": "OK",
 		"statuslabelkeypool1": "This is a log of all the Bitcoin Cash Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
 		"statuskeypoolrefresh": "Refresh", //TODO: please translate
-		"statusokkeypool": "OK", //TODO: please translate
+		"statusokkeypool": "OK",
 
 		// single wallet html
 		"newaddress": "Neues Wallet erstellen",
