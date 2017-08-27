@@ -36,7 +36,7 @@
 		"footerlabelgithub": "Проект на GitHub",
 		"footerlabelgithubzip": "zip",
 		"footerlabelsig": "sig",
-		"footerlabelcopyright1": "Копирайт bitaddress.org.",
+		"footerlabelcopyright1": "Копирайт cashaddress.org.",
 		"footerlabelcopyright2": "Информация о копирайте на JavaScript в исходниках.",
 		"footerlabelnowarranty": "Без гарантий.",
 

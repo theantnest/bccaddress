@@ -36,7 +36,7 @@
 		"footerlabelgithub": "GitHub页面",
 		"footerlabelgithubzip": "zip",
 		"footerlabelsig": "sig",
-		"footerlabelcopyright1": "Copyright bitaddress.org.",
+		"footerlabelcopyright1": "Copyright cashaddress.org.",
 		"footerlabelcopyright2": "JavaScript的版权信息已经包含在源代码中。",
 		"footerlabelnowarranty": "No warranty",
 

@@ -40,7 +40,7 @@
 		"footerlabelgithub": "Repositorio GitHub",
 		"footerlabelgithubzip": "zip",
 		"footerlabelsig": "sig",
-		"footerlabelcopyright1": "Copyright bitaddress.org.",
+		"footerlabelcopyright1": "Copyright cashaddress.org.",
 		"footerlabelcopyright2": "Copyright del código JavaScript: en el fuente.", // Could you give me the original phrase here?
 		"footerlabelnowarranty": "Sin garantías.",
 

@@ -36,7 +36,7 @@
 		"footerlabelgithub": "Repository GitHub",
 		"footerlabelgithubzip": "zip",
 		"footerlabelsig": "sig",
-		"footerlabelcopyright1": "Copyright bitaddress.org.",
+		"footerlabelcopyright1": "Copyright cashaddress.org.",
 		"footerlabelcopyright2": "Le note di copyright dei file JavaScript sono inclusi nei sorgenti stessi.",
 		"footerlabelnowarranty": "Nessuna garanzia.",
 
