@@ -6364,7 +6364,7 @@ Bitcoin.Util = {
             no-repeat left center; width: 17px; height: 17px; display: inline-block; float: right; }
 a { position: relative; z-index: 20; }
 .right { text-align: right; }
-.walletarea, #paperarea { display: none; padding: 15px 2px; }
+.walletarea, #paperarea { display: none; }
 hr { margin: 20px 0; border-top: 2px dashed #008000; }
 .keyarea { height: 110px; text-align: left; position: relative; padding: 5px; }
 .keyarea .public { float: left; }
@@ -6382,7 +6382,7 @@ body, html { height: 99%; }
 .question { padding: 10px 15px; text-align: left; cursor: pointer; }
 .question:hover, .expandable:hover { color: #77777A; }
 .answer { padding: 0 15px 10px 25px; text-align: left; display: none; font-size: 80%; }
-.faq { border: 0; border-top: 2px solid #009900; }
+.faq { border: 0; border-top: 2px solid #4cca47; }
 .button { margin-left: 5px; margin-right: 5px; }
 input[type=checkbox] { position: relative; z-index: 20; }
 
@@ -6404,14 +6404,14 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #keyarea .public { width: 30%; display: table-cell; }
 #singlearea { font-size: 90%; }
 #singlesecret { position: relative; top: -130px; float: right; right: 200px; color: red; font-weight: bolder; font-size: 200%;  }
-#singleshare { position: relative; top: -110px; float: left; left: 160px; color: #009900; font-weight: bolder; font-size: 200%;  }
-#singlesafety { text-align: left; padding: 5px; border-top: 2px solid #009900; position: relative; }
+#singleshare { position: relative; top: -110px; float: left; left: 160px; color: #4cca47; font-weight: bolder; font-size: 200%;  }
+#singlesafety { text-align: left; padding: 5px; border-top: 2px solid #4cca47; position: relative; }
 
-#main { position: relative; text-align: center; margin: 0px auto; padding: 15px 0; width: 808px; background-color: #ffffff; border-top: 2px solid #009900; }
+#main { position: relative; text-align: center; margin: 0px auto; padding: 15px 0; width: 808px; background-color: #ffffff; border-top: 2px solid #4cca47; }
 #logo { width: 578px; height: 80px; }
         
 #paperarea { min-height: 120px; display: none; }
-#paperarea .keyarea { border: 2px solid #009900; border-top: 0; }
+#paperarea .keyarea { border: 2px solid #4cca47; border-top: 0; }
 #paperarea .keyarea.art { display: block; height: auto; border: 0; font-family: Ubuntu, Arial; padding: 0; margin: 0; }
 #paperarea .artwallet .papersvg { width: 486px; height: 261px; border: 0; margin: 0; padding: 0; left: 0; }
 #paperarea .artwallet .qrcode_public { top: 52px; left: 17px; z-index: 100; margin: 0; float: none; display: block; position: absolute; background-color: #FFFFFF; 
@@ -6476,9 +6476,9 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #vanityarea .label { text-decoration: underline; }
 #vanityarea .output { font-family: monospace; font-size: 1.25em; display: block; }
 #vanityarea .notes { text-align: left; font-size: 80%; padding: 0 0 20px 0; }
-#vanitystep1area { display: none; text-align: left; position: relative; padding: 15px; border-bottom: 2px solid #009900; }
+#vanitystep1area { display: none; text-align: left; position: relative; padding: 15px; border-bottom: 2px solid #4cca47; }
 #vanitystep1label { padding-left: 5px; }
-#vanitystep2area { border-top: 2px solid #009900; display: block; padding: 15px; }
+#vanitystep2area { border-top: 2px solid #4cca47; display: block; padding: 15px; }
 #vanitystep2inputs { padding: 0 15px 10px 15px; }
 #vanitycalc { margin-top: 5px; }
 
@@ -6486,8 +6486,8 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #splitarea span { padding: 0; }
 #splitcommands { padding: 10px 15px; text-align: left; }
 #combinecommands { padding: 10px 15px; }
-#splitstep1area { display: none; text-align: left; position: relative; padding: 0; border-bottom: 2px solid #009900; }
-.splitsharerow { border-bottom: 2px solid #009900; padding: 15px; }
+#splitstep1area { display: none; text-align: left; position: relative; padding: 0; border-bottom: 2px solid #4cca47; }
+.splitsharerow { border-bottom: 2px solid #4cca47; padding: 15px; }
 .splitsharerow:last-child { border-bottom: 0; }
 #combinelabelprivatekey { text-decoration: underline; }
 #splitarea .output { display: block; font-family: monospace; font-size: 1.25em; }
@@ -6530,17 +6530,17 @@ input[type=checkbox] { position: relative; z-index: 20; }
     .menu .tab:hover
     {
         background-color: #FFF;
-        color: #009900;
+        color: #4cca47;
     }
     .menu .tab.selected
     {
         cursor: default;
         background-color: #f9f9f9;
-        color: #009900; font-weight: bold;
+        color: #4cca47; font-weight: bold;
     }
 
     .pagebreak { height: 50px; }
-    .commands { border-bottom: 2px solid #009900; padding: 10px 2px; }
+    .commands { border-bottom: 2px solid #4cca47; padding: 10px 2px; }
     .commands .row { padding: 0 0; text-align: left; } 
     .commands .row.extra { padding-top: 6px; }
     .commands span { padding: 0 10px; }
@@ -6565,7 +6565,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
             
     .keypooltextarea { width: 100%; }
 
-    .footer { font-size: 90%; clear: both; padding: 10px 0 10px 0; margin: 0; border-top: 2px solid #009900; }
+    .footer { font-size: 90%; clear: both; padding: 10px 0 10px 0; margin: 0; border-top: 2px solid #4cca47; }
     .footer div span.item { padding: 10px; }
     .footer .authorbtc { float: left; width: 450px; }
     .footer .authorbtc span.item { text-align: left; display: block; padding: 0 20px; }
@@ -6586,7 +6586,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
     #main { width: auto; border: none; }
     #singlearea { border: 0; }
     #singlesafety { border: 0; }
-    #paperarea .keyarea:first-child { border-top: 2px solid #009900; }
+    #paperarea .keyarea:first-child { border-top: 2px solid #4cca47; }
     #paperarea .keyarea.art:first-child { border: 0; }
     .pagebreak { height: 1px; }
     .paper #logo { display: none; }
