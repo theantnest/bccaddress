@@ -34,7 +34,8 @@
 
 		// footer html
 		"footerlabeldonations": "Donaciones:",
-		"footerlabeltranslatedby": "Traducción: <b>12345</b>Vypv2QSmuRXcciT5oEB27mPbWGeva", // Should I put my name here?
+		"footerlabeltranslatedby": "Traducción: <b>12345</b>Vypv2QSmuRXcciT5oEB27mPbWGeva",
+		"footerlabeltranslatedby": "Traducción: <b>Francisco Salvado</b>34asTQaYjY1wViisS7ydueY3Kx3Cw5dVLW",
 		"footerlabelpgp": "PGP",
 		"footerlabelversion": "Histórico de versiones",
 		"footerlabelgithub": "Repositorio GitHub",
