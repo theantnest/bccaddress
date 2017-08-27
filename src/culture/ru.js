@@ -2,7 +2,7 @@
 	translator.translations["ru"] = {
 		// javascript alerts or messages
 		"testneteditionactivated": "Активирован режим TESTNET",
-		"paperlabelbitcoinaddress": "Адрес Bitcoin кошелька:",
+		"paperlabelbitcoinaddress": "Адрес Bitcoin Cash кошелька:",
 		"paperlabelprivatekey": "Приватный Ключ:",
 		"paperlabelencryptedkey": "Зашифрованный Приватный Ключ (требуется пароль)",
 		"bulkgeneratingaddresses": "Генерация адресов... ",
@@ -61,7 +61,7 @@
 		"statuslabelprotocolbad2": "download", //TODO: please translate
 		"statuslabelprotocolbad3": "the zip file from GitHub and run this generator offline as a local html file.", //TODO: please translate
 		"statusokprotocolbad": "OK", //TODO: please translate
-		"statuslabelkeypool1": "This is a log of all the Bitcoin Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
+		"statuslabelkeypool1": "This is a log of all the Bitcoin Cash Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
 		"statuskeypoolrefresh": "Refresh", //TODO: please translate
 		"statusokkeypool": "OK", //TODO: please translate
 

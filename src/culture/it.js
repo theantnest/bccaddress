@@ -2,23 +2,23 @@
 	translator.translations["it"] = {
 		// javascript alerts or messages
 		"testneteditionactivated": "TESTNET EDITION ATTIVATO",
-		"paperlabelbitcoinaddress": "Indirizzo Bitcoin:",
+		"paperlabelbitcoinaddress": "Indirizzo Bitcoin Cash:",
 		"paperlabelprivatekey": "Chiave privata:",
 		"paperlabelencryptedkey": "Chiave privata criptata (password richiesta)",
 		"bulkgeneratingaddresses": "Generazione indirizzi... ",
 		"detailalertnotvalidprivatekey": "Il testo inserito non rappresenta una Chiave Privata valida",
-		"detailconfirmsha256": "Il testo inserito non rappresenta una Chiave privata valida!\n\nVorresti usare il testo inserito come passphrase e creare da questa un hash SHA256 e generare così una Chiave Privata?\n\nAvvertenza: La scelta di una passphrase robusta è importante per evitare che attacchi di tipo \"brute force\" vadano a segno indovinando il testo segreto e di conseguenza far perdere i Bitcoin.",
+		"detailconfirmsha256": "Il testo inserito non rappresenta una Chiave privata valida!\n\nVorresti usare il testo inserito come passphrase e creare da questa un hash SHA256 e generare così una Chiave Privata?\n\nAvvertenza: La scelta di una passphrase robusta è importante per evitare che attacchi di tipo \"brute force\" vadano a segno indovinando il testo segreto e di conseguenza far perdere i Bitcoin Cash.",
 		"bip38alertincorrectpassphrase": "Passphrase non corretta per questa chiave privata criptata.",
 		"bip38alertpassphraserequired": "Passphrase richiesta per chiave BIP38",
 		"vanityinvalidinputcouldnotcombinekeys": "Dati inseriti non validi. Le chiavi non possono essere combinate.",
 		"vanityalertinvalidinputpublickeysmatch": "Dati inseriti non validi. Entrambe le chiavi pubbliche combaciano. Devi inserire due chiavi differenti.",
-		"vanityalertinvalidinputcannotmultiple": "Dati inseriti non validi. Impossibile moltiplicare due chiavi pubbliche. Seleziona 'Aggiungi' per inserire due chiavi pubbliche ed ottenere l'indirizzo Bitcoin.",
+		"vanityalertinvalidinputcannotmultiple": "Dati inseriti non validi. Impossibile moltiplicare due chiavi pubbliche. Seleziona 'Aggiungi' per inserire due chiavi pubbliche ed ottenere l'indirizzo Bitcoin Cash.",
 		"vanityprivatekeyonlyavailable": "Non disponibile quando vengono combinate due chiavi private",
 		"vanityalertinvalidinputprivatekeysmatch": "Dati inseriti non validi. Entrambe le chiavi private combaciano. Devi inserire due chiavi differenti.",
 
 		// header and menu html
-		"tagline": "Open Source JavaScript Client-Side Bitcoin Wallet Generator",
-		"generatelabelbitcoinaddress": "Generazione Indirizzo Bitcoin...",
+		"tagline": "Open Source JavaScript Client-Side Bitcoin Cash Wallet Generator",
+		"generatelabelbitcoinaddress": "Generazione Indirizzo Bitcoin Cash...",
 		"generatelabelmovemouse": "MUOVI il tuo mouse per contribuire alla generazione dei numeri casuali...",
 		"generatelabelkeypress": "OR type some random characters into this textbox", //TODO: please translate
 		"singlewallet": "Singolo portafoglio",
@@ -61,14 +61,14 @@
 		"statuslabelprotocolbad2": "download", //TODO: please translate
 		"statuslabelprotocolbad3": "the zip file from GitHub and run this generator offline as a local html file.", //TODO: please translate
 		"statusokprotocolbad": "OK", //TODO: please translate
-		"statuslabelkeypool1": "This is a log of all the Bitcoin Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
+		"statuslabelkeypool1": "This is a log of all the Bitcoin Cash Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
 		"statuskeypoolrefresh": "Refresh", //TODO: please translate
 		"statusokkeypool": "OK", //TODO: please translate
 
 		// single wallet html
 		"newaddress": "Genera un Nuovo Indirizzo",
 		"singleprint": "Stampa",
-		"singlelabelbitcoinaddress": "Indirizzo Bitcoin:",
+		"singlelabelbitcoinaddress": "Indirizzo Bitcoin Cash:",
 		"singlelabelprivatekey": "Chiave privata (Wallet Import Format):",
 		"singletip1": "<b>Un portafogli bitcoin</b> è composto semplicemente da una coppia di valori: l'indirizzo e la sua chiave privata. Un portafogli è stato appena generato sul tuo browser e mostrato sopra.",
 		"singletip2": "<b>Per mettere in sicurezza questo portafogli</b> devi stampare o quantomeno salvare l'indirizzo bitcoin e la Chiave privata. È molto importante fare una copia di backup della chiave privata e conservarla in un posto sicuro. Questo sito non conosce la tua chiave privata. Se hai familiarità con PGP, puoi scaricare per intero questa pagina HTML e controllare la sua autentiticità. Puoi confrontare il codice SHA256 della pagina scaricata con il codice firmato dall'autore che trovi nella cronologia delle versioni (in fondo alla pagina). Se abbandoni/aggiorni la pagina web oppure premi il tasto Genera, un nuovo indirizzo sostituirà quello vecchio che non potrà più essere recuperato. La chiave privata dovrebbe essere tenuta segreta, chiunque conosca la chiave privata può avere accesso e spendere i tuoi bitcoin. Se stampi il tuo portafogli conservalo in una busta di plastica sigillata per tenerla al riparo dall'acqua. Tratta quanto stampato alla stregua di una banconota.",
@@ -95,14 +95,14 @@
 		"bulkprint": "Stampa",
 		"bulklabelcsv": "Valori Separati da virgola:",
 		"bulklabelformat": "Indice,Indirizzo,Chiave Privata (WIF)",
-		"bulklabelq1": "Perché dovrei usare tanti portafogli per accettare Bitcoin sul mio sito web?",
-		"bulka1": "Il tradizionale approcio per accettare i Bitcoin è quello di installare il demone ufficiale Bitcoin (\"bitcoind\"). Molti pacchetti di hosting web non supportano l'installazione di tale demone. Inoltre tenere in esecuzione il demone richiede che la chiave privata del portafogli sia custodita sul server, se questo viene violato tramite hacking puoi perdere tutti i Bitcoin. Usando portafogli multipli puoi caricare sul server solo l'indirizzo per il versamento e non la chiave privata. Quindi non devi preoccuparti del tuo portafogli nel caso in cui il server venga violato con un attacco di hacking.",
-		"bulklabelq2": "Come utilizzo tutti questi portafogli per accettare Bitcoin sul mio sito web?",
-		"bulklabela2li1": "Usa la funzione \"Portafogli multipli\" per generare una grande quantità di indirizzi Bitcoin (10,000+). Copia e incolla la lista generata in formato CSV (campi separati da virgola) su un file, al sicuro nel tuo computer. Fai una copia di backup di questo file e mettilo un posto sicuro.",
-		"bulklabela2li2": "Importa gli indirizzi Bitcoin in una tabella del database sul tuo web server. (Non importare i portafogli/chiavi private sul web server, altrimenti corri il rischio che rubino i tuoi Bitcoin con l'hacking. Usa gli indirizzi Bitcoin così come verranno mostrati ai tuoi clienti.)",
-		"bulklabela2li3": "Fornisci una opzione nel carrello del tuo sito web per pagare in Bitcoin. Quando il cliente sceglie di pagare in Bitcoin, gli mostrerai un indirizzo dal tuo database come \"indirizzo di pagamento\" e conserverai questo stesso indirizzo insieme ai dati dell'ordine.",
-		"bulklabela2li4": "Ora hai bisogno di notificare l'arrivo del pagamento. Cerca su Google \"notifiche pagamento Bitcoin\" ed iscriviti ad almeno un servizio di notifica. Esistono diversi servizi che possono notificare in vari modi come Web Services, API, SMS, Email, etc. Una volta ricevuta la notifica, la quale può essere automatizzata con la programmazione, puoi processare l'ordine del cliente. Per verificare manualmente se l'ordine è davvero arrivato puoi usare un block explorer. Sostituisci INDIRIZZODACONTROLLARE con l'indirizzo Bitcoin da controllare. Possono volerci dai 10 fino a 60 minuti per fare in modo che una transazione venga confermata.<br>http://www.blockexplorer.com/address/INDIRIZZODACONTROLLARE<br><br>Le transazioni non confermate possono essere visionate su: http://blockchain.info/ <br>Dovresti vedere la transazione entro 30 secondi.",
-		"bulklabela2li5": "In questo modo i Bitcoin transiteranno nella blockchain in tutta sicurezza. Usa il portafogli creato nel Passo 1 per spendere i Bitcoin.",
+		"bulklabelq1": "Perché dovrei usare tanti portafogli per accettare Bitcoin Cash sul mio sito web?",
+		"bulka1": "Il tradizionale approcio per accettare i Bitcoin Cash è quello di installare il demone ufficiale Bitcoin Cash (\"bitcoind\"). Molti pacchetti di hosting web non supportano l'installazione di tale demone. Inoltre tenere in esecuzione il demone richiede che la chiave privata del portafogli sia custodita sul server, se questo viene violato tramite hacking puoi perdere tutti i Bitcoin Cash. Usando portafogli multipli puoi caricare sul server solo l'indirizzo per il versamento e non la chiave privata. Quindi non devi preoccuparti del tuo portafogli nel caso in cui il server venga violato con un attacco di hacking.",
+		"bulklabelq2": "Come utilizzo tutti questi portafogli per accettare Bitcoin Cash sul mio sito web?",
+		"bulklabela2li1": "Usa la funzione \"Portafogli multipli\" per generare una grande quantità di indirizzi Bitcoin Cash (10,000+). Copia e incolla la lista generata in formato CSV (campi separati da virgola) su un file, al sicuro nel tuo computer. Fai una copia di backup di questo file e mettilo un posto sicuro.",
+		"bulklabela2li2": "Importa gli indirizzi Bitcoin Cash in una tabella del database sul tuo web server. (Non importare i portafogli/chiavi private sul web server, altrimenti corri il rischio che rubino i tuoi Bitcoin Cash con l'hacking. Usa gli indirizzi Bitcoin Cash così come verranno mostrati ai tuoi clienti.)",
+		"bulklabela2li3": "Fornisci una opzione nel carrello del tuo sito web per pagare in Bitcoin Cash. Quando il cliente sceglie di pagare in Bitcoin Cash, gli mostrerai un indirizzo dal tuo database come \"indirizzo di pagamento\" e conserverai questo stesso indirizzo insieme ai dati dell'ordine.",
+		"bulklabela2li4": "Ora hai bisogno di notificare l'arrivo del pagamento. Cerca su Google \"notifiche pagamento Bitcoin Cash\" ed iscriviti ad almeno un servizio di notifica. Esistono diversi servizi che possono notificare in vari modi come Web Services, API, SMS, Email, etc. Una volta ricevuta la notifica, la quale può essere automatizzata con la programmazione, puoi processare l'ordine del cliente. Per verificare manualmente se l'ordine è davvero arrivato puoi usare un block explorer. Sostituisci INDIRIZZODACONTROLLARE con l'indirizzo Bitcoin Cash da controllare. Possono volerci dai 10 fino a 60 minuti per fare in modo che una transazione venga confermata.<br>http://www.blockexplorer.com/address/INDIRIZZODACONTROLLARE<br><br>Le transazioni non confermate possono essere visionate su: http://blockchain.info/ <br>Dovresti vedere la transazione entro 30 secondi.",
+		"bulklabela2li5": "In questo modo i Bitcoin Cash transiteranno nella blockchain in tutta sicurezza. Usa il portafogli creato nel Passo 1 per spendere i Bitcoin Cash.",
 
 		// vanity wallet html
 		"vanitylabelstep1": "Passo1 1 - Genera la tua Coppia di chiavi",
@@ -131,10 +131,10 @@
 		"detailkeyformats": "Key Formats: WIF, WIFC, HEX, B64, B6, MINI, BIP38",
 		"detailview": "Mostra Dettagli",
 		"detailprint": "Stampa",
-		"detaillabelnote1": "La tua Chiave privata Bitcoin è rappresentata da un numero segreto, unico al mondo, che dovresti conoscere soltanto tu. Può essere codificato in molti formati differenti. Di seguito verrà mostrato l'indirizzo Bitcoin e la chiave pubblica, con la corrispondente chiave privata, nei più diffusi formati di codifica (WIF, WIFC, HEX, B64).",
+		"detaillabelnote1": "La tua Chiave privata Bitcoin Cash è rappresentata da un numero segreto, unico al mondo, che dovresti conoscere soltanto tu. Può essere codificato in molti formati differenti. Di seguito verrà mostrato l'indirizzo Bitcoin Cash e la chiave pubblica, con la corrispondente chiave privata, nei più diffusi formati di codifica (WIF, WIFC, HEX, B64).",
 		"detaillabelnote2": "Il client Bitcoin, dalla versione v0.6, memorizza le chiavi pubbliche in formato compresso. Il programma ora supporta l'importazione e l'esportazione delle chiavi private attraverso importprivkey/dumpprivkey. Il formato con cui viene esportata la chiave privata dipende se l'indirizzo generato è stato creato con il nuovo o vecchio portafogli.",
-		"detaillabelbitcoinaddress": "Indirizzo Bitcoin",
-		"detaillabelbitcoinaddresscomp": "Indirizzo Bitcoin compresso",
+		"detaillabelbitcoinaddress": "Indirizzo Bitcoin Cash",
+		"detaillabelbitcoinaddresscomp": "Indirizzo Bitcoin Cash compresso",
 		"detaillabelpublickey": "Chiave pubblica (130 caratteri [0-9A-F]):",
 		"detaillabelpublickeycomp": "Chiave pubblica (compressa, 66 caratteri [0-9A-F]):",
 		"detaillabelprivwif": "Chiave privata WIF<br>51 caratteri base58, inizia per a",
@@ -147,6 +147,6 @@
 		"detailbip38decryptbutton": "Decripta BIP38",
 		"detailbip38encryptbutton": "Encrypt BIP38", //TODO: please translate
 		"detaillabelq1": "How do I make a wallet using dice? What is B6?", //TODO: please translate
-		"detaila1": "An important part of creating a Bitcoin wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Bitcoin private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Bitcoin address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
+		"detaila1": "An important part of creating a Bitcoin Cash wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Bitcoin private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Bitcoin address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
 	};
 })(ninja.translator);
