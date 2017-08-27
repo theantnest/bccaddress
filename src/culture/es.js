@@ -11,7 +11,7 @@
 		"brainalertpassphrasedoesnotmatch": "Las contraseñas no coinciden.",
 		"detailalertnotvalidprivatekey": "El texto introducido no es una clave privada válida",
 		"detailconfirmsha256": "El texto introducido no es una clave privada válida\n\n¿Quiere usar ese texto como si fuera una contraseña y generar una clave privada usando un hash SHA256 de esa contraseña?\n\nAviso: Es importante escoger una contraseña robusta para evitar ataques de fuerza bruta que buscan descifrarla y robar sus bitcoins.",
-		"bip38alertincorrectpassphrase": "Contraseña incrrecta para esta clave privada encriptada.",
+		"bip38alertincorrectpassphrase": "Contraseña incorrecta para esta clave privada encriptada.",
 		"bip38alertpassphraserequired": "Contraseña requerida para la Clave BIP38", // Could you give me some context for this phrase? I feel that it isn't quite right yet.
 		"vanityinvalidinputcouldnotcombinekeys": "Entrada no válida. No se puede combinar Claves.",
 		"vanityalertinvalidinputpublickeysmatch": "Entrada no válida. La clave pública de ambos coincidan entradas. Debe introducir dos claves diferentes.", // Could you give me the whole phrase in English, so to convey its meaning properly?
