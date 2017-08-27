@@ -30,6 +30,9 @@
 		"brainwallet": "Cartera mental",
 		"vanitywallet": "Cartera personalizada",
 		"splitwallet": "Cartera separada",
+		"splitlabelthreshold": "Umbral de divisiones mínimas necesarias para combinar",
+		"splitlabelshares": "Número de divisiones",
+		"splitview": "Vista de divisiones",
 		"detailwallet": "Detalles de la cartera",
 
 		// footer html

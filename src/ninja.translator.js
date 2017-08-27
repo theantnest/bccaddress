@@ -85,7 +85,7 @@
 
 		extractEnglishFromDomAndUpdateDictionary: function () {
 			var english = translator.translations["en"];
-			var keyLang = translator.translations["hu"];
+			var keyLang = translator.translations["es"];
 			var langClone = {};
 			for (var key in keyLang) {
 				langClone[key] = keyLang[key];
@@ -110,7 +110,7 @@
 
 		showEnglishJson: function () {
 			var english = ninja.translator.translations["en"];
-			var keyLang = ninja.translator.translations["hu"];
+			var keyLang = ninja.translator.translations["es"];
 			var langClone = {};
 			for (var key in keyLang) {
 				langClone[key] = keyLang[key];
