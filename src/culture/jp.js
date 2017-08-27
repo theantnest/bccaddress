@@ -30,13 +30,13 @@
 
 		// footer html
 		"footerlabeldonations": "プロジェクト寄付先",
-		"footerlabeltranslatedby": "日本語訳寄付先 1o3EBhxPhGn8cGCL6Wzi5F5kTPuBofdMf",
+		"footerlabeltranslatedby": "日本語訳寄付先 BTC 1o3EBhxPhGn8cGCL6Wzi5F5kTPuBofdMf",
 		"footerlabelpgp": "PGP",
 		"footerlabelversion": "バージョン履歴",
 		"footerlabelgithub": "GitHubリポジトリ",
 		"footerlabelgithubzip": "zip",
 		"footerlabelsig": "sig",
-		"footerlabelcopyright1": "Copyright bitaddress.org.",
+		"footerlabelcopyright1": "Copyright cashaddress.org.",
 		"footerlabelcopyright2": "JavaScriptのコピーライト情報はソースに含まれています。",
 		"footerlabelnowarranty": "保障はありません。",
 
@@ -61,7 +61,7 @@
 		"statuslabelprotocolbad2": "download", //TODO: please translate
 		"statuslabelprotocolbad3": "the zip file from GitHub and run this generator offline as a local html file.", //TODO: please translate
 		"statusokprotocolbad": "OK", //TODO: please translate
-		"statuslabelkeypool1": "This is a log of all the Bitcoin Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
+		"statuslabelkeypool1": "This is a log of all the Bitcoin Cash Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
 		"statuskeypoolrefresh": "Refresh", //TODO: please translate
 		"statusokkeypool": "OK", //TODO: please translate
 
@@ -73,8 +73,8 @@
 		"singletip1": "<b>ビットコインウォレットとは</b> ビットコインのアドレスと対応するプライベートキーを組み合わせたものです。新しいアドレスがブラウザー上で生成され、上記に表示されています。",
 		"singletip2": "<b>このウォレットを守るためには</b> ビットコインアドレスとビットコインプライベートキーを印刷するなどの手段で記録しなければいけません。プライベートキーが無いとペアになっているアドレスに送られたビットコインが使えないので、人に晒されないような方法でプライベートキーのコピーを取り、大事に保管して下さい。このサイトはこのプライベートキーの保存はしません。PGPをご存知の方は、このサイトを1つのhtmlファイルで落とすことができるので、このサイトのhtmlファイルのSHA256ハッシュとサイトのフッターにデジタル署名されたメッセージに入ったハッシュを比べて不正にいじられていないかをお確かめいただけます。このページを閉じたり、離れたり、”新アドレス生成”を押すと現在表示されているプライベートキーは消え、新規アドレスが生成されるので、ご使用の場合は必ず何らかの手段で記録しておいて下さい。プライベートキーは秘密にしてください。共有されますと、対応するビットコインアドレスに存在するコインが全て共有者間で利用可能となります。ウォレット情報を印刷したら、濡れないようにジップロックに入れましょう。紙幣と同様に扱うよう心がけてください。",
 		"singletip3": "<b>このウォレットにコインを追加 : </b> 他の人から自分のビットコインアドレスに送ってもらう。",
-		"singletip4": "<b>残高照会は</b> blockchain.infoやblockexplorer.comに行き、ビットコインアドレスを入力してお調べ下さい。",
-		"singletip5": "<b>ビットコインを使おう。</b> 送金するには、このページで生成したプライベートキーをblockchain.infoのウォレットや各種パソコン・スマホ端末にあるウォレットアプリなどに取り込んで使えます。しかし、その時点でそのアドレスが取り込んだウォレットの他のアドレスと融合してしまい、この一つのアドレスのバックアップだけじゃビットコインを保管することはできなくなります。取り込み先のウォレットを強いパスワードで暗号化し、バックアップして、安全に扱って下さい。ビットコインの考案者「サトシさん」曰く、「一度作ったウォレットを、空にしたとしても、削除しない方が良い。」(メールアドレスと同じく、いつ昔の友達や親戚から古いアドレス宛にビットコインを送ってくるかわかりませんから。)",
+		"singletip4": "<b>残高照会は</b> https://blockchair.com/bitcoin-cash/blocksやhttps://cash.coin.dance/に行き、ビットコインアドレスを入力してお調べ下さい。",
+		"singletip5": "<b>ビットコインを使おう。</b> 送金するには、このページで生成したプライベートキーをhttps://blockchair.com/bitcoin-cash/blocksのウォレットや各種パソコン・スマホ端末にあるウォレットアプリなどに取り込んで使えます。しかし、その時点でそのアドレスが取り込んだウォレットの他のアドレスと融合してしまい、この一つのアドレスのバックアップだけじゃビットコインを保管することはできなくなります。取り込み先のウォレットを強いパスワードで暗号化し、バックアップして、安全に扱って下さい。ビットコインの考案者「サトシさん」曰く、「一度作ったウォレットを、空にしたとしても、削除しない方が良い。」(メールアドレスと同じく、いつ昔の友達や親戚から古いアドレス宛にビットコインを送ってくるかわかりませんから。)",
 
 		// paper wallet html
 		"paperlabelhideart": "デザイン非表示",
@@ -99,7 +99,7 @@
 		"bulklabela2li1": "大量生成タブで大量のビットコインを生成(10,000+でも可)。出てくるCSVテキストをコピーして、安全なテキストエディターで貼り付けて、安全な場所に保存しておいて下さい。一つバックアップを取り、別の場所で保管しておく(強いパスワードのかかったzipなどで)",
 		"bulklabela2li2": "ビットコインアドレスをウェブサーバーにアップロード。プライベートキーはアップロードしないで下さい。ユーザーに見せたい宛先用のアドレスのみをアップロードして下さい。",
 		"bulklabela2li3": "サイトのショッピングカート機能にビットコインのリンクを追加して下さい。クリックされた時、お値段と先ほどアップしたビットコインアドレスが順番に出てくるようにしておいて下さい(1取引1アドレス)。注文の情報と一緒に、このアドレスも一緒に保存して、後で紐付けられるようにしておいて下さい。",
-		"bulklabela2li4": "後は支払いの通知を受けないと注文を通すか否か分かりません。グーグルで「bitcoin payment notification」と検索したら、SMS、メール、APIなどでビットコインの支払いがあった際教えてくれます。これをコードの中に組み込んで、支払いがあったら注文を通すようにもできます。手動で送金があったかを見る場合、blockchain.infoに行き、宛先のアドレスを入力すれば、取引履歴から送金の事実を確認できます。大体送金の30秒後に表示され、10分～1時間の間に「確認」されます。",
+		"bulklabela2li4": "後は支払いの通知を受けないと注文を通すか否か分かりません。グーグルで「bitcoin payment notification」と検索したら、SMS、メール、APIなどでビットコインの支払いがあった際教えてくれます。これをコードの中に組み込んで、支払いがあったら注文を通すようにもできます。手動で送金があったかを見る場合、https://cash.coin.dance/address/に行き、宛先のアドレスを入力すれば、取引履歴から送金の事実を確認できます。大体送金の30秒後に表示され、10分～1時間の間に「確認」されます。",
 		"bulklabela2li5": "送られたビットコインはブロックチェーンにて安全に保管されます。送金するには1番で作成したウォレットを何らかのビットコインソフトに取り込んでご利用下さい。",
 
 		// vanity wallet html
