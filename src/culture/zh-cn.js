@@ -30,7 +30,7 @@
 
 		// footer html
 		"footerlabeldonations": "项目捐赠",
-		"footerlabeltranslatedby": "简中翻译捐赠 1BfXayW2vrj6uRpoZg3nR8rMEckLpGmaiL",
+		"footerlabeltranslatedby": "简中翻译捐赠 BTC 1BfXayW2vrj6uRpoZg3nR8rMEckLpGmaiL",
 		"footerlabelpgp": "PGP",
 		"footerlabelversion": "版本历史",
 		"footerlabelgithub": "GitHub页面",

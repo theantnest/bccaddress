@@ -30,7 +30,7 @@
 
 		// footer html
 		"footerlabeldonations": "プロジェクト寄付先",
-		"footerlabeltranslatedby": "日本語訳寄付先 1o3EBhxPhGn8cGCL6Wzi5F5kTPuBofdMf",
+		"footerlabeltranslatedby": "日本語訳寄付先 BTC 1o3EBhxPhGn8cGCL6Wzi5F5kTPuBofdMf",
 		"footerlabelpgp": "PGP",
 		"footerlabelversion": "バージョン履歴",
 		"footerlabelgithub": "GitHubリポジトリ",

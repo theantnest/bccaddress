@@ -30,7 +30,7 @@
 
 		// footer html
 		"footerlabeldonations": "Dons:",
-		"footerlabeltranslatedby": "Traduction: 1Gy7NYSJNUYqUdXTBow5d7bCUEJkUFDFSq",
+		"footerlabeltranslatedby": "Traduction: BTC 1Gy7NYSJNUYqUdXTBow5d7bCUEJkUFDFSq",
 		"footerlabelpgp": "PGP",
 		"footerlabelversion": "Historique De Version",
 		"footerlabelgithub": "Dépôt GitHub",

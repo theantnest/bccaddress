@@ -31,7 +31,7 @@
 
 		// footer html
 		"footerlabeldonations": "Adományok:",
-		"footerlabeltranslatedby": "Fordította: 1GEBor11XtqDoamipB8nAV7o4fNW5JcrUD",
+		"footerlabeltranslatedby": "Fordította: BTC 1GEBor11XtqDoamipB8nAV7o4fNW5JcrUD",
 		"footerlabelpgp": "PGP",
 		"footerlabelversion": "Változatok története",
 		"footerlabelgithub": "GitHub kódtár",
