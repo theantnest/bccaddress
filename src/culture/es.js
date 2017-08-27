@@ -22,7 +22,7 @@
 		// header and menu html
 		"tagline": "Generador de carteras Bitcoin de código abierto en lado de cliente con Javascript", // Could you give me the whole phrase in English, so to convey its meaning properly?
 		"generatelabelbitcoinaddress": "Generando dirección Bitcoin...",
-		"generatelabelmovemouse": "Mueve un poco el ratón para crear movimientos al azar...",
+		"generatelabelmovemouse": "Mueve un poco el ratón para crear información al azar...",
 		"generatelabelkeypress": "O BIEN escriba algunos caracteres al azar en este recuadro.",
 		"singlewallet": "Cartera individual", // Are you thinking of Spanish clients or Latin American clients? I ask because for spanish wallet=cartera and for LATAM wallet=billetera.
 		"paperwallet": "Cartera en papel",
