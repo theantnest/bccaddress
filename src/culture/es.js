@@ -11,7 +11,7 @@
 		"brainalertpassphrasedoesnotmatch": "Las contraseñas no coinciden.",
 		"detailalertnotvalidprivatekey": "El texto introducido no es una clave privada válida",
 		"detailconfirmsha256": "El texto introducido no es una clave privada válida\n\n¿Quiere usar ese texto como si fuera una contraseña y generar una clave privada usando un hash SHA256 de esa contraseña?\n\nAviso: Es importante escoger una contraseña robusta para evitar ataques de fuerza bruta que buscan descifrarla y robar sus bitcoins.",
-		"bip38alertincorrectpassphrase": "Contraseña incrrecta para esta clave privada encriptada.", // DONE
+		"bip38alertincorrectpassphrase": "Contraseña incrrecta para esta clave privada encriptada.",
 		"bip38alertpassphraserequired": "Contraseña requerida para la llave BIP38", // Could you give me some context for this phrase? I feel that it isn't quite right yet.
 		"vanityinvalidinputcouldnotcombinekeys": "Entrada no válida. No se puede combinar llaves.",
 		"vanityalertinvalidinputpublickeysmatch": "Entrada no válida. La clave pública de ambos coincidan entradas. Debe introducir dos claves diferentes.", // Could you give me the whole phrase in English, so to convey its meaning properly?
@@ -23,13 +23,13 @@
 		"tagline": "Generador de carteras Bitcoin de código abierto en lado de cliente con Javascript", // Could you give me the whole phrase in English, so to convey its meaning properly?
 		"generatelabelbitcoinaddress": "Generando dirección Bitcoin...",
 		"generatelabelmovemouse": "Mueve un poco el ratón para crear movimientos al azar...",
-		"generatelabelkeypress": "O BIEN escriba algunos caracteres al azar en este recuadro.", // DONE
+		"generatelabelkeypress": "O BIEN escriba algunos caracteres al azar en este recuadro.",
 		"singlewallet": "Cartera individual", // Are you thinking of Spanish clients or Latin American clients? I ask because for spanish wallet=cartera and for LATAM wallet=billetera.
 		"paperwallet": "Cartera en papel",
 		"bulkwallet": "Cartera con múltiples direcciones", // I have a feeling this name speaks more of its concept... I don't know if BULK translates as accurately to Spanish
 		"brainwallet": "Cartera mental",
 		"vanitywallet": "Cartera personalizada",
-		"splitwallet": "Cartera separada", // DONE
+		"splitwallet": "Cartera separada",
 		"detailwallet": "Detalles de la cartera",
 
 		// footer html
@@ -45,40 +45,40 @@
 		"footerlabelnowarranty": "Sin garantías.",
 
 		// status html
-		"statuslabelcryptogood": "&#10004; Bien!", // DONE
-		"statuslabelcryptogood1": "Su navegador puede generar llaves criptográficas aleatorias usando window.crypto.getRandomValues", // DONE. I don't know if the command mentioned requires translation as well.
-		"statusokcryptogood": "OK", // Doesn't need translation.
-		"statuslabelcryptobad": "&times; ¡Oh no!", // Doesn't need translation.
+		"statuslabelcryptogood": "&#10004; ¡Bien!", 
+		"statuslabelcryptogood1": "Su navegador puede generar llaves criptográficas aleatorias usando window.crypto.getRandomValues",
+		"statusokcryptogood": "OK", 
+		"statuslabelcryptobad": "&times; ¡Oh no!",
 		"statuslabelcryptobad1": "Su navegador NO soporta window.crypto.getRandomValues. Debe usar un navegador actualizado con este generador para incrementar la seguridad de las llaves generadas.",
-		"statusokcryptobad": "OK", // Doesn't need translation.
-		"statuslabelunittestsgood": "&#10004; ¡Bien!", // DONE
-		"statuslabelunittestsgood1": "Todas las pruebas sincrónicas han sido superadas.", // DONE
-		"statusokunittestsgood": "OK", // Doesn't need translation.
-		"statuslabelunittestsbad": "&times; ¡Oh no!", // Doesn't need translation.
-		"statuslabelunittestsbad1": "Algunas unidades de las pruebas sincrónicas NO fueron superadas. Debe usar un navegador actualizado con este generador.", // DONE
-		"statusokunittestsbad": "OK", // DONE
-		"statuslabelprotocolgood": "&#10004; ¡Bien!", // DONE
+		"statusokcryptobad": "OK",
+		"statuslabelunittestsgood": "&#10004; ¡Bien!",
+		"statuslabelunittestsgood1": "Todas las pruebas sincrónicas han sido superadas.",
+		"statusokunittestsgood": "OK",
+		"statuslabelunittestsbad": "&times; ¡Oh no!",
+		"statuslabelunittestsbad1": "Algunas unidades de las pruebas sincrónicas NO fueron superadas. Debe usar un navegador actualizado con este generador.",
+		"statusokunittestsbad": "OK",
+		"statuslabelprotocolgood": "&#10004; ¡Bien!",
 		"statuslabelprotocolgood1": "Está ejecutando este generador desde su computador local. <br />Pista: Asegúrese de que esta offine al intentarlo.", // DONE. Even though I get the feeling that this phrase is missing something. Could you give me some more context to it?
-		"statusokprotocolgood": "OK", // Doesn't need translation.
-		"statuslabelprotocolbad": "&#9888; ¡Piénselo dos veces!", // DONE
-		"statuslabelprotocolbad1": "Al parecer está ejecutando este generador en línea desde un sitio en vivo. Para las carteras valiosas se recomienda", // DONE
-		"statuslabelprotocolbad2": "descargar", // DONE
-		"statuslabelprotocolbad3": "el archivo zip desde GitHub y ejecutar este generador offline como un archivo html local.", // DONE
-		"statusokprotocolbad": "OK", // Doesn't need translation.
-		"statuslabelkeypool1": "Este es un registro de todas las direcciones Bitcoin y Llaves privadas que ud. ha generado durante su sesión actual. Si actualiza la página, esto creará una nueva sesión.", // DONE
-		"statuskeypoolrefresh": "Actualizar", // DONE
-		"statusokkeypool": "OK", // Doesn't need translation.
+		"statusokprotocolgood": "OK",
+		"statuslabelprotocolbad": "&#9888; ¡Piénselo dos veces!",
+		"statuslabelprotocolbad1": "Al parecer está ejecutando este generador en línea desde un sitio en vivo. Para las carteras valiosas se recomienda", 
+		"statuslabelprotocolbad2": "descargar",
+		"statuslabelprotocolbad3": "el archivo zip desde GitHub y ejecutar este generador offline como un archivo html local.",
+		"statusokprotocolbad": "OK",
+		"statuslabelkeypool1": "Este es un registro de todas las direcciones Bitcoin y Llaves privadas que ud. ha generado durante su sesión actual. Si actualiza la página, esto creará una nueva sesión.",
+		"statuskeypoolrefresh": "Actualizar",
+		"statusokkeypool": "OK",
 
 		// single wallet html
 		"newaddress": "Generar dirección",
 		"singleprint": "Imprimir",
 		"singlelabelbitcoinaddress": "Dirección Bitcoin",
 		"singlelabelprivatekey": "Clave privada (formato para importar):",
-		"singletip1": "<b>Una cartera Bitcoin</b> es algo tan sencillo como la unión de una dirección Bitcoin con su Llave privada Bitcoin correspondiente. Una cartera de este tipo ha sido generada para ud. en su navegador web y se muestra en la parte superior.", // DONE
-		"singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Bitcoin address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA256 hash of this HTML with the SHA256 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.	Your Bitcoin private key should be kept a secret. Whomever you share the private key with has access to spend all the bitcoins associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
-		"singletip3": "<b>Add funds</b> to this wallet by instructing others to send bitcoins to your Bitcoin address.", //TODO: please translate
-		"singletip4": "<b>Check your balance</b> by going to blockchain.info or blockexplorer.com and entering your Bitcoin address.", //TODO: please translate
-		"singletip5": "<b>Spend your bitcoins</b> by going to blockchain.info and sweep the full balance of your private key into your account at their website. You can also spend your funds by downloading one of the popular bitcoin p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a bitcoin p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another bitcoin address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining bitcoins will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
+		"singletip1": "<b>Una cartera Bitcoin</b> es algo tan sencillo como la unión de una dirección Bitcoin con su Llave privada Bitcoin correspondiente. Una cartera de este tipo ha sido generada para ud. en su navegador web y se muestra en la parte superior.",
+		"singletip2": "<b>Para salvaguardar esta cartera</b> usted debe imprimir o guardar dirección Bitcoin y su clave privada. Es importante hacer un respaldo de la llave privada y guardarla en un lugar seguro. Este sitio no tiene conocimiento de su llave privada. Si usted esta familiarizado con PGP puede descargar esta página HTML todo en uno y asegurarse de que tiene tiene una versión auténtica del autor de este sitio emparejando el hash SHA256 de esta HTML con el SHA256 disponible en la versión del documento historial firmado cuyo link puede encontrar en el pie de página de este sitio. Si usted abandona/actualiza esta página o presiona el botón para generar una nueva dirección, una nueva llave privada será generada y la llave privada anterior no será recuperable. Su llave privada Bitcoin debe ser mantenida en secreto. Con quien usted decida compartirla tendrá acceso a gastar todas las Bitcoin asociadas con esa dirección. Si imprime su cartera, le recomendamos guardarla en una bolsa zip lock para mantenerla a salvo de la humedad o el agua. Trate la cartera de papel como si fuese dinero en efectivo.",
+		"singletip3": "<b>Añada fondos</b> a esta cartera indicándole a otros a enviar Bitcoins a su dirección Bitcoin.",
+		"singletip4": "<b>Puede revisar su balance</b> visitando las páginas blockchain.info o blockexplorer.com e ingresando su dirección Bitcoin.",
+		"singletip5": "<b>Puede gastar sus Bitcoins</b> visitando la página blockchain.info y desde ahí retirar todos los fondos asociados a su clave privada y enviarlos a su cuenta en su sitio web. También puede utilizar sus fondos descargando alguno de los populares clientes Bitcoin p2p e importando su clave privada a la cartera de cliente p2p. Tenga en cuenta cuando importe su llave única a un cliente Bitcoin p2p y realice gastos su llave será agrupada y empaquetada con otras llaves privadas en la cartera de cliente p2p. Cuando realice una transacción su cambio será enviado a otra dirección Bitcoin ubicada dentro de la cartera de cliente p2p. You must then backup the p2p client wallet and keep it safe as your remaining bitcoins will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
 		"singleshare": "SHARE", //TODO: please translate
 		"singlesecret": "SECRET", //TODO: please translate
 
