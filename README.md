@@ -1,37 +1,38 @@
 # cashaddress.org
 JavaScript Client-Side Bitcoin Cash Wallet Generator
 
-Now Bitcoin Cash addresses and their corresponding private key can be conveniently
-generated in a web browser.
+Generate Bitcoin Cash addresses and their corresponding private key conveniently
+in a web browser.
 
 The cashaddress.org project provides an all-in-one HTML document with embedded
-JavaScript/Css/Images. The JavaScript is readable not minified and contains no
+JavaScript/CSS/Images. The JavaScript is readable not minified and contains no
 XMLHttpRequest's (no AJAX). The benefit of this technique is you can load the
 JavaScript locally and trust that the JavaScript did not change after being
 loaded.
 
-END USER NOTES:
+This project is based on code from bitaddress.org. Their project can be found at:
+https://github.com/pointbiz/bitaddress.org.
 
- 1) For Bulk Wallet I recommended using Google Chrome, it's the fastest.
+END USER NOTES:
+ 1) Google Chrome is recommended for the Bulk Wallet.
 
  2) Requires IE9+, Firefox, Chrome or sufficient JavaScript support.
 
  3) Mobile Safari only works with iPhone4 or newer devices.
     Older devices timeout while executing JavaScript.
 
- 4) DO NOT use Opera Mini it renders JavaScript output server side, therefore
+ 4) DO NOT use Opera Mini! It renders JavaScript output server side, therefore
     they might record the private key you generated.
 
  5) BIP38 most likely will not work on mobile devices due to hardware limitations.
 
-
 Notice of Copyrights and Licenses:
 ---------------------------------------
+The cashaddress.org project, software and embedded resources are
+copyright cashaddress.org.
+
 The bitaddress.org project, software and embedded resources are
 copyright bitaddress.org.
-
-The bitaddress.org name and logo are not part of the open source
-license.
 
 Portions of the all-in-one HTML document contain JavaScript codes that
 are the copyrights of others. The individual copyrights are included
@@ -50,8 +51,8 @@ window.BigInteger |	BSD License
 window.QRCode | MIT License
 window.Bitcoin | MIT License
 
-The bitaddress.org software is available under The MIT License (MIT)
-Copyright (c) 2011-2013 bitaddress.org
+The cashaddress.org software is available under The MIT License (MIT)
+Copyright (c) 2017 cashaddress.org
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
