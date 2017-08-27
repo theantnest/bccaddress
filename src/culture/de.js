@@ -6,9 +6,6 @@
 		"paperlabelprivatekey": "Privater Schl&uuml;ssel:",
 		"paperlabelencryptedkey": "Verschl&uuml;sselter privater Schl&uuml;ssel (Passwort ben&ouml;tigt)",
 		"bulkgeneratingaddresses": "Adressen erstellen... ",
-		"brainalertpassphrasetooshort": "Die eingegebene Passphrase ist zu kurz.\n\n",
-		"brainalertpassphrasewarning": "Hinweis: Eine längere Passphrase schützt besser vor Brute-Force-Attacken, bei denen auf gut Glück Passphrasen probiert werden.",
-		"brainalertpassphrasedoesnotmatch": "Die beiden Passphrasen stimmen nicht überein.",
 		"detailalertnotvalidprivatekey": "Der eingegebene Text ist kein gültiger privater Schlüssel.",
 		"detailconfirmsha256": "Der eingegebene Text ist kein gültiger privater Schlüssel!\n\nMöchtest du den eingegebenen Text als Passphrase verwenden, um mithilfe dessen SHA256-Hash einen privaten Schlüssel zu erstellen?\n\nHinweis: Eine längere Passphrase sch&uuml;tzt besser vor Brute-Force-Attacken, bei denen auf gut Glück Passphrasen probiert werden.",
 		"bip38alertincorrectpassphrase": "Falsches Passwort",
@@ -27,7 +24,6 @@
 		"singlewallet": "Einzelnes Wallet",
 		"paperwallet": "Papier-Wallet",
 		"bulkwallet": "Massen-Wallet",
-		"brainwallet": "Kopf-Wallet",
 		"vanitywallet": "Personalisiertes Wallet",
 		"splitwallet": "Split Wallet", //TODO: please translate
 		"detailwallet": "Walletdetails",
@@ -107,16 +103,6 @@
 		"bulklabela2li3": "Biete deinen Kunden auf deiner Webseite Bitcoin als Zahlungsm&ouml;glichkeit an. Wenn ein Kunde mit Bitcoin zahlen m&ouml;chte, zeige ihm eine der Adressen aus deiner Datenbank als Zahlungsadresse an und speichere sie mit seiner Bestellung.",
 		"bulklabela2li4": "Jetzt musst du dir den Zahlungseingang best&auml;tigen lassen. Google \"bitcoin payment notification\" und melde dich bei mindestens einem solchen Anbieter an. Es gibt verschiedene Anbieter, die dich via Web, API, SMS, E-Mail etc. &uuml;ber erfolgte Transaktionen informieren k&ouml;nnen. Sobald du die Eingangsbest&auml;tigung erh&auml;lst, kannst du automatisch die Bestellung abwickeln lassen. Um selber zu schauen, ob eine Zahlung erfolgt ist, kannst du Block Explorer nutzen. Ersetze BITCOINADRESSE durch die Bitcoin-Adresse, die du pr&uuml;fen m&ouml;chtest. Es dauert von zehn Minuten bis zu einer Stunde, um Transaktionen zu best&auml;tigen. <br />http://www.blockexplorer.com/address/BITCOINADRESSE<br /> <br />Unbest&auml;tigte Transaktionen findest du hier: http://blockchain.info/ <br /> S&auml;mtliche Transaktionen sollten dort innerhalb von 30 Sekunden auftauchen.",
 		"bulklabela2li5": "Deine Bitcoins werden sicher in die Block-Chain aufgenommen. Mithilfe des urspr&uuml;nglichen Wallets vom ersten Schritt kannst du sie ausgeben.",
-
-		// brain wallet html
-		"brainlabelenterpassphrase": "Passphrase eingeben:",
-		"brainlabelshow": "Aufdecken?",
-		"brainprint": "Drucken",
-		"brainlabelconfirm": "Passphrase wiederholen:",
-		"brainview": "Zugehöriges Wallet anzeigen",
-		"brainalgorithm": "Algorithmus: SHA256 (Passphrase)",
-		"brainlabelbitcoinaddress": "Bitcoin-Adresse:",
-		"brainlabelprivatekey": "Privater Schl&uuml;ssel (WIF):",
 
 		// vanity wallet html
 		"vanitylabelstep1": "Schritt 1 - Erstelle dein Schl&uuml;sselpaar",

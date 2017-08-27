@@ -57,9 +57,6 @@
 				"paperlabelprivatekey": "Private Key:",
 				"paperlabelencryptedkey": "Encrypted Private Key (Password required)",
 				"bulkgeneratingaddresses": "Generating addresses... ",
-				"brainalertpassphrasetooshort": "The passphrase you entered is too short.\n\n",
-				"brainalertpassphrasewarning": "Warning: Choosing a strong passphrase is important to avoid brute force attempts to guess your passphrase and steal your bitcoins.",
-				"brainalertpassphrasedoesnotmatch": "The passphrase does not match the confirm passphrase.",
 				"detailalertnotvalidprivatekey": "The text you entered is not a valid Private Key",
 				"detailconfirmsha256": "The text you entered is not a valid Private Key!\n\nWould you like to use the entered text as a passphrase and create a Private Key using a SHA256 hash of the passphrase?\n\nWarning: Choosing a strong passphrase is important to avoid brute force attempts to guess your passphrase and steal your bitcoins.",
 				"detailbip38decryptbutton": "Decrypt BIP38", //TODO: please translate
@@ -76,7 +73,6 @@
 				"singlewallet": "Single Wallet",
 				"paperwallet": "Paper Wallet",
 				"bulkwallet": "Bulk Wallet",
-				"brainwallet": "Brain Wallet",
 				"vanitywallet": "Vanity Wallet",
 				"splitwallet": "Split Wallet",
 				"detailwallet": "Wallet Details"

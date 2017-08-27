@@ -6,9 +6,6 @@
 		"paperlabelprivatekey": "私钥",
 		"paperlabelencryptedkey": "加密私钥(需要密码)",
 		"bulkgeneratingaddresses": "创建地址中...",
-		"brainalertpassphrasetooshort": "这个密码太短了 \n\n",
-		"brainalertpassphrasewarning": "警告：选择一个足够强大的口令非常重要，它可以避免你的私钥被暴力破解。 此外，UTF-8编码有效。请注意区分全角/半角",
-		"brainalertpassphrasedoesnotmatch": "两次输入的口令不一致",
 		"detailalertnotvalidprivatekey": "输入的私钥无效",
 		"detailconfirmsha256": "你输入的不是合法的私钥，\n\n你想用它的SHA-256值当作私钥吗（相当于脑钱包）\n\n警告：选择一个足够强大的口令非常重要，它可以避免你的私钥被暴力破解。",
 		"bip38alertincorrectpassphrase": "这个加密私钥的密码不正确。",
@@ -27,7 +24,6 @@
 		"singlewallet": "普通钱包",
 		"paperwallet": "纸钱包",
 		"bulkwallet": "批量钱包",
-		"brainwallet": "脑钱包",
 		"vanitywallet": "虚荣钱包",
 		"splitwallet": "分裂钱包",
 		"detailwallet": "钱包详情",
@@ -105,16 +101,6 @@
 		"bulklabela2li3": "    为你的客户提供一个比特币支付的接口。每当一名客户选择使用比特币支付，你就从你的数据库中提取一个地址，作为该客户专用的“付款地址”，并保存订单信息。",
 		"bulklabela2li4": "接下来你需要一个收款通知，联系相关服务的供应商（谷歌搜索“bitcoin payment notification”），它们可以监视指定地址的资金变动，并通过WebAPI、短信、电邮或者其他方式来提醒你，你也可以通过编程使一切自动化。在http://www.blockexplorer.com/address/地址 或者 https://blockchain.info/address/地址 查看交易确认数。通常情况下，你能够在30秒之内看见交易，而根据你对安全的要求不同，你可能需要10分钟到1小时的时间等待交易确认。",
 		"bulklabela2li5": "比特币在区块链上稳定之后，你就可以使用在第一步中生成的私钥来花费它们。",
-
-		// brain wallet html
-		"brainlabelenterpassphrase": "口令",
-		"brainlabelshow": "显示口令？",
-		"brainprint": "打印",
-		"brainlabelconfirm": "口令确认",
-		"brainview": "生成脑钱包",
-		"brainalgorithm": "算法： SHA256 (口令)",
-		"brainlabelbitcoinaddress": "比特币地址",
-		"brainlabelprivatekey": "私钥(WIF格式)",
 
 		// vanity wallet html
 		"vanitylabelstep1": "第一步，生成一对公-私钥",

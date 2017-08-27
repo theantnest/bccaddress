@@ -7,9 +7,6 @@
 		"paperlabelprivatekey": "Privát kulcs:",
 		"paperlabelencryptedkey": "Titkosított privát kulcs (Jelszó szükséges)",
 		"bulkgeneratingaddresses": "Cím generálás... ",
-		"brainalertpassphrasetooshort": "A megadott jelmondat túl rövid.\n\n",
-		"brainalertpassphrasewarning": "Figyelem: Fontos, hogy erős jelmondatot válasszon, mert különben a jelmondatot nyers erővel feltörhetik és a bitcoinjait ellophatják.",
-		"brainalertpassphrasedoesnotmatch": "A jelmondat és az ellenőrző jelmondat nem azonos.",
 		"detailalertnotvalidprivatekey": "A megadott szöveg nem érvényes Privát Kulcs",
 		"detailconfirmsha256": "Az ön által megadott szöveg érvénytelen Privát Kulcs!\n\nSzeretné a megadott szöveget jelmondatként kezelni, és annak SHA256 zanzájából egy Privát Kulcsot előállítani?\n\nFigyelem: Fontos, hogy erős jelmondatot válasszon, mert különben a jelmondatot nyers erővel feltörhetik és a bitcoinjait ellophatják.",
 		"bip38alertincorrectpassphrase": "Érvénytelen jelmondat a titkosított privát kulcshoz.",
@@ -28,7 +25,6 @@
 		"singlewallet": "Egyszerű pénztárca",
 		"paperwallet": "Papír pénztárca",
 		"bulkwallet": "Tömeges pénztárca",
-		"brainwallet": "Fejben tartott pénztárca",
 		"vanitywallet": "Kérkedő pénztárca",
 		"splitwallet": "Felosztott tárca",
 		"detailwallet": "A pénztárca részletei",
@@ -106,16 +102,6 @@
 		"bulklabela2li3": "Web helyének vásárlókosarába vegye fel a bitcoinnal történő fizetés lehetőségét. Ha egy ügyfél bitcoinnal kíván fizetni, akkor \"fizetési címként\" az adatbázis egyik címét jelenítse meg, és a megrendelés mellett ezt a címet tárolja.",
 		"bulklabela2li4": "Most szüksége van arra, hogy értesítést kapjon, ha megérkezett a pénz. A Google-on keressen rá a \"bitcoin payment notification\" kifejezésre, és iratkozzon föl valamelyik szolgáltatóhoz, amely értesítést küld, ha bizonyos címekre Bitcoint küldtek. Számos ilyen szolgáltató van, amelyik Web szervíz, API, SMS, Email, stb. segítségével értesítést küld. Amint megérkezik az értesítés, amelynek automatikus figyelése beprogramozható, máris megkezdheti az ügyfél megrendelésének feldolgozását. Ha manuálisan szeretné ellenőrizni, hogy érkezett-e valamelyik címre pénz, akkor a Block Explorer-t használhatja. A CÍM helyébe írja azt a Bitcoin címet, amelyet ellenőrizni szeretne. A tranzakció megerősítéséhez 10 és 60 perc közötti időre van szükség.<br />http://www.blockexplorer.com/address/CÍM<br /><br />A megerősítetlen tranzakciókat itt lehet megnézni: http://blockchain.info/ <br />A tranzakció 30 másodpercen belül megjelenik.",
 		"bulklabela2li5": "Az Ön bitcoinjai biztonságos módon gyűlnek a blokkláncon. Használja az 1. lépés során előállított eredeti pénztárcát, ha szeretné őket elkölteni.",
-
-		// brain wallet html
-		"brainlabelenterpassphrase": "Adja be a jelmondatot: ",
-		"brainlabelshow": "Jelmondat megjelenítése?",
-		"brainprint": "Nyomtatás",
-		"brainlabelconfirm": "Erősítse meg a jelmondatot: ",
-		"brainview": "Megjelenítés",
-		"brainalgorithm": "Algoritmus: SHA256(jelmondat)",
-		"brainlabelbitcoinaddress": "Bitcoin cím:",
-		"brainlabelprivatekey": "Privát kulcs (WIF, tárca import formátumban):",
 
 		// vanity wallet html
 		"vanitylabelstep1": "1. lépés - az \"1. lépéshez tartozó Kulcspár\" előállítása",

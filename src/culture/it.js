@@ -6,9 +6,6 @@
 		"paperlabelprivatekey": "Chiave privata:",
 		"paperlabelencryptedkey": "Chiave privata criptata (password richiesta)",
 		"bulkgeneratingaddresses": "Generazione indirizzi... ",
-		"brainalertpassphrasetooshort": "La passphrase inserita è troppo corta.\n\n",
-		"brainalertpassphrasewarning": "Attenzione: La scelta di una passphrase robusta è importante per evitare attacchi brute force in grado di indovinare la tua passphrase e rubare i tuoi Bitcoin",
-		"brainalertpassphrasedoesnotmatch": "La passphrase non combacia con quella data per la conferma.",
 		"detailalertnotvalidprivatekey": "Il testo inserito non rappresenta una Chiave Privata valida",
 		"detailconfirmsha256": "Il testo inserito non rappresenta una Chiave privata valida!\n\nVorresti usare il testo inserito come passphrase e creare da questa un hash SHA256 e generare così una Chiave Privata?\n\nAvvertenza: La scelta di una passphrase robusta è importante per evitare che attacchi di tipo \"brute force\" vadano a segno indovinando il testo segreto e di conseguenza far perdere i Bitcoin.",
 		"bip38alertincorrectpassphrase": "Passphrase non corretta per questa chiave privata criptata.",
@@ -27,7 +24,6 @@
 		"singlewallet": "Singolo portafoglio",
 		"paperwallet": "Paper Wallet",
 		"bulkwallet": "Portafogli multipli",
-		"brainwallet": "Brain Wallet",
 		"vanitywallet": "Vanity Wallet",
 		"splitwallet": "Split Wallet", //TODO: please translate
 		"detailwallet": "Dettagli portafoglio",
@@ -107,16 +103,6 @@
 		"bulklabela2li3": "Fornisci una opzione nel carrello del tuo sito web per pagare in Bitcoin. Quando il cliente sceglie di pagare in Bitcoin, gli mostrerai un indirizzo dal tuo database come \"indirizzo di pagamento\" e conserverai questo stesso indirizzo insieme ai dati dell'ordine.",
 		"bulklabela2li4": "Ora hai bisogno di notificare l'arrivo del pagamento. Cerca su Google \"notifiche pagamento Bitcoin\" ed iscriviti ad almeno un servizio di notifica. Esistono diversi servizi che possono notificare in vari modi come Web Services, API, SMS, Email, etc. Una volta ricevuta la notifica, la quale può essere automatizzata con la programmazione, puoi processare l'ordine del cliente. Per verificare manualmente se l'ordine è davvero arrivato puoi usare un block explorer. Sostituisci INDIRIZZODACONTROLLARE con l'indirizzo Bitcoin da controllare. Possono volerci dai 10 fino a 60 minuti per fare in modo che una transazione venga confermata.<br>http://www.blockexplorer.com/address/INDIRIZZODACONTROLLARE<br><br>Le transazioni non confermate possono essere visionate su: http://blockchain.info/ <br>Dovresti vedere la transazione entro 30 secondi.",
 		"bulklabela2li5": "In questo modo i Bitcoin transiteranno nella blockchain in tutta sicurezza. Usa il portafogli creato nel Passo 1 per spendere i Bitcoin.",
-
-		// brain wallet html
-		"brainlabelenterpassphrase": "Inserisci la Passphrase: ",
-		"brainlabelshow": "Mostra?",
-		"brainprint": "Stampa",
-		"brainlabelconfirm": "Conferma Passphrase: ",
-		"brainview": "Visiona",
-		"brainalgorithm": "Algoritmo: SHA256(passphrase)",
-		"brainlabelbitcoinaddress": "Indirizzo Bitcoin:",
-		"brainlabelprivatekey": "Chiave privata (Wallet Import Format):",
 
 		// vanity wallet html
 		"vanitylabelstep1": "Passo1 1 - Genera la tua Coppia di chiavi",

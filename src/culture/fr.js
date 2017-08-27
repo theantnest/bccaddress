@@ -6,9 +6,6 @@
 		"paperlabelprivatekey": "Clé Privée:",
 		"paperlabelencryptedkey": "Encrypted Private Key (Password required)", //TODO: please translate
 		"bulkgeneratingaddresses": "Création de l'adresse... ",
-		"brainalertpassphrasetooshort": "Le mot de passe que vous avez entré est trop court.\n\n",
-		"brainalertpassphrasewarning": "Attention: Choisir un mot de passe solide est important pour vous protéger des attaques bruteforce visant à trouver votre mot de passe et voler vos Bitcoins.",
-		"brainalertpassphrasedoesnotmatch": "Le mot de passe ne correspond pas au mot de passe de vérification.",
 		"detailalertnotvalidprivatekey": "Le texte que vous avez entré n'est pas une Clé Privée valide",
 		"detailconfirmsha256": "Le texte que vous avez entré n'est pas une Clé Privée valide!\n\nVoulez-vous utiliser le texte comme un mot de passe et créer une Clé Privée à partir d'un hash SHA256 de ce mot de passe?\n\nAttention: Choisir un mot de passe solide est important pour vous protéger des attaques bruteforce visant à trouver votre mot de passe et voler vos Bitcoins.",
 		"bip38alertincorrectpassphrase": "Incorrect passphrase for this encrypted private key.", //TODO: please translate
@@ -27,7 +24,6 @@
 		"singlewallet": "Porte-Monnaie Simple",
 		"paperwallet": "Porte-Monnaie Papier",
 		"bulkwallet": "Porte-Monnaie En Vrac",
-		"brainwallet": "Porte-Monnaie Cerveau",
 		"vanitywallet": "Porte-Monnaie Vanité",
 		"splitwallet": "Split Wallet", //TODO: please translate
 		"detailwallet": "Détails du Porte-Monnaie",
@@ -107,16 +103,6 @@
 		"bulklabela2li3": "Ajoutez une option dans votre panier en ligne pour que vos clients puissent vous payer en Bitcoin. Quand un client choisi de vous payer en Bitcoin, vous pouvez afficher une des adresses de votre base de donnée comme \"adresse de paiment\" pour votre client et sauvegarder cette adresse avec sa commande.",
 		"bulklabela2li4": "Vous avez maintenant besoin d'être avisé quand le paiement est reçu. Cherchez \"bitcoin payment notification\" sur Google et inscrivez-vous à un service de notification de paiement Bitcoin. Il y a plusieurs services qui vous avertiront via des services Web, API, SMS, Email, etc. Une fois que vous avez reçu la notification, qui devrait être programmée automatiquement, vous pouvez traiter la commande de votre client. Pour vérifier manuellement si un paiement est arrivé, vous pouvez utiliser Block Explorer. Remplacez ADRESSE par l'adresse Bitcoin que vous souhaitez vérifier. La confirmation de la transaction pourrait prendre de 10 à 60 minutes pour être confirmée.<br />http://www.blockexplorer.com/address/ADRESSE<br /><br />Les transactions non confirmées peuvent être visualisées ici: http://blockchain.info/ <br />Vous devriez voir la transaction à l'intérieur de 30 secondes.",
 		"bulklabela2li5": "Les Bitcoins vos s'accumuler de façon sécuritaire dans la chaîne de blocs. Utilisez le porte-monnaie original que vous avez généré à l'étape 1 pour les dépenser.",
-
-		// brain wallet html
-		"brainlabelenterpassphrase": "Entrez votre mot de passe: ",
-		"brainlabelshow": "Afficher?",
-		"brainprint": "Imprimer",
-		"brainlabelconfirm": "Confirmer le mot de passe: ",
-		"brainview": "Visualiser",
-		"brainalgorithm": "Algorithme: SHA256(mot de passe)",
-		"brainlabelbitcoinaddress": "Adresse Bitcoin:",
-		"brainlabelprivatekey": "Clé Privée (Format d'importation de porte-monnaie):",
 
 		// vanity wallet html
 		"vanitylabelstep1": "Étape 1 - Générer votre \"Étape 1 Paire De Clés\"",

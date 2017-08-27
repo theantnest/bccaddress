@@ -6,9 +6,6 @@
 		"paperlabelprivatekey": "Soukromý klíč:",
 		"paperlabelencryptedkey": "Šifrovaný soukromý klíč (Vyžadováno heslo)",
 		"bulkgeneratingaddresses": "Generuji adresy... ",
-		"brainalertpassphrasetooshort": "Zadané heslo je příliš krátké.\n\n",
-		"brainalertpassphrasewarning": "Varování: Je důležité zvolit silné heslo, které je odolné proti útoku hrubou silou a krádeži vašich Bitcoinů.",
-		"brainalertpassphrasedoesnotmatch": "Heslo nejsou stejná.",
 		"detailalertnotvalidprivatekey": "Zadaný text není platým soukromým klíčem",
 		"detailconfirmsha256": "Zadaný text není platným soukromým klíčem!\n\nChcete použít zadaný text jako heslo a vytvořit soukromý klíč pomocí SHA256?\n\nVarování: Je důležité zvolit silné heslo, které je odolné proti útoku hrubou silou a krádeži vašich Bitcoinů.",
 		"bip38alertincorrectpassphrase": "Špatné heslo pro BIP38",
@@ -27,7 +24,6 @@
 		"singlewallet": "Jedna peněženka",
 		"paperwallet": "Papírová peněženka",
 		"bulkwallet": "Hromadná peněženka",
-		"brainwallet": "Myšlenková peněženka",
 		"vanitywallet": "Peněženka Vanity",
 		"splitwallet": "Split Wallet", //TODO: please translate
 		"detailwallet": "Detail peněženky",
@@ -107,16 +103,6 @@
 		"bulklabela2li3": "Umožněte na vaší stránce platbu pomocí Bitcoinu. Stačí vždy zobrazit jednu z vygenerovaných adres a uložit si ji u objednávky.",
 		"bulklabela2li4": "Nyní je již pouze potřeba zařídit notifikace o příchozí transakci. Zadejte do Google \"bitcoin payment notification\" a využijte jednu z existujících služeb. Existuje jich několik a podporují např. Web Services, API, SMS, Email, apod. Notifikaci můžete zpracovat automaticky. Pro ruční kontrolu, zda peníze přišly, stačí použít Block Explorer. Nahraďte SEMPATŘÍADRESA Bitcoin adresou, kterou chcete zkontrolovat. Potvrzení transkace může trvat od 10 minut do jedné hodiny.<br />http://www.blockexplorer.com/address/SEMPATŘÍADRESA<br /><br />Nepotvrzené tansakce je možné zkontrolovat na: http://blockchain.info/ <br />Většinou se zde zobrazí do 30 sekund.",
 		"bulklabela2li5": "Bitcoiny budou bezpečně převedeny v řetězci bloků. Pro spotřebování stačí kdykoliv naimportovat soubor vygenerovaný v prvním kroku.",
-
-		// brain wallet html
-		"brainlabelenterpassphrase": "Zadejte heslo:",
-		"brainlabelshow": "Zobrazit?",
-		"brainprint": "Tisk",
-		"brainlabelconfirm": "Heslo znovu:",
-		"brainview": "Zobrazit",
-		"brainalgorithm": "Algoritmus: SHA256 (Heslo)",
-		"brainlabelbitcoinaddress": "Bitcoin adresa:",
-		"brainlabelprivatekey": "Soukromý klíč (WIF &ndash; Formát pro import do peněženky):",
 
 		// vanity wallet html
 		"vanitylabelstep1": "Krok 1 &ndash; Vytvořte klíč pro první krok",

@@ -77,13 +77,13 @@ ninja.tab = {
             }
             
             // don't open tab if entropy still being collected
-            // exceptions: brainwallet detailwallet
-            if (ninja.seeder.isStillSeeding == false || walletType == "brainwallet" || walletType == "detailwallet") {
+            // exceptions: detailwallet
+            if (ninja.seeder.isStillSeeding == false || walletType == "detailwallet") {
             	walletTab.className += " selected";
             	document.getElementById("generate").style.display = "none";
                 ninja.wallets[walletTab.getAttribute("id")].open();
             }
-            else if (ninja.seeder.isStillSeeding == true && !(walletType == "brainwallet" || walletType == "detailwallet")) {
+            else if (ninja.seeder.isStillSeeding == true && walletType != "detailwallet") {
                 document.getElementById("generate").style.display = "block";
             }
         }

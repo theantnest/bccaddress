@@ -6,9 +6,6 @@
 		"paperlabelprivatekey": "Clave privada:",
 		"paperlabelencryptedkey": "Clave privada cifrada (contraseña necesaria)",
 		"bulkgeneratingaddresses": "Generación de direcciones... ",
-		"brainalertpassphrasetooshort": "La contraseña introducida es demasiado corta.\n\n",
-		"brainalertpassphrasewarning": "Aviso: Es importante escoger una contraseña robusta para evitar ataques de fuerza bruta que buscan descifrarla y robar sus bitcoins.",
-		"brainalertpassphrasedoesnotmatch": "Las contraseñas no coinciden.",
 		"detailalertnotvalidprivatekey": "El texto introducido no es una clave privada válida",
 		"detailconfirmsha256": "El texto introducido no es una clave privada válida\n\n¿Quiere usar ese texto como si fuera una contraseña y generar una clave privada usando un hash SHA256 de esa contraseña?\n\nAviso: Es importante escoger una contraseña robusta para evitar ataques de fuerza bruta que buscan descifrarla y robar sus bitcoins.",
 		"bip38alertincorrectpassphrase": "Contraseña incorrecta para esta clave privada encriptada.",
@@ -27,7 +24,6 @@
 		"singlewallet": "Cartera individual", // Are you thinking of Spanish clients or Latin American clients? I ask because for spanish wallet=cartera and for LATAM wallet=billetera.
 		"paperwallet": "Cartera en papel",
 		"bulkwallet": "Cartera con múltiples direcciones", // I have a feeling this name speaks more of its concept... I don't know if BULK translates as accurately to Spanish
-		"brainwallet": "Cartera mental",
 		"vanitywallet": "Cartera personalizada",
 		"splitwallet": "Cartera separada",
 		"splitlabelthreshold": "Umbral de divisiones mínimas necesarias para combinar",
@@ -112,16 +108,6 @@
 		"bulklabela2li3": "Ofrezca una alternativa en el carro de compra de su sitio web para que sus clientes paguen con Bitcoin. Cuando un cliente elija pagar con Bitcoin, se le entregará una de las direcciones de la base de datos como su \"dirección de pago\" y guarda esto junto con el pedido.",
 		"bulklabela2li4": "Ahora sólo falta recibir una notificación del pago. Busque en google \"notificación de pagos Bitcoin\" (o \"Bitcoin payment notification\" en inglés) y suscribase a alguno de los servicios que aparezcan. Hay varios de ellos, que le pueden notificar vía Web services, API, SMS, email, etc. Una vez le llegue la notificación, lo cual puede ser automatizado, entonces puede ya procesar el pedido. Para comprobar a mano si ha recibido un pago, puede usar Block Explorer: reemplaza DIRECCION a continuación por la dirección que esté comprobando. La transacción puede tardar entre 10 minutos a una hora en ser confirmada. <br />http://www.blockexplorer.com/address/DIRECCION<br /><br />Puede ver las transacciones sin confirmar en: http://blockchain.info/ <br />Las transacciones sin confirmar suelen aparecer ahí en unos 30 segundos.",
 		"bulklabela2li5": "Las Bitcoin que reciba se almacenarán de forma segura en la cadena de bloques. Use la cartera original que generó en el paso 1 para utilizarlas.",
-
-		// brain wallet html
-		"brainlabelenterpassphrase": "Contraseña:",
-		"brainlabelshow": "Mostrar",
-		"brainprint": "Imprimir",
-		"brainlabelconfirm": "Confirmar contraseña:",
-		"brainview": "Ver",
-		"brainalgorithm": "Algoritmo: SHA256(contraseña)",
-		"brainlabelbitcoinaddress": "Dirección Bitcoin:",
-		"brainlabelprivatekey": "Clave privada (formato para importar):",
 
 		// vanity wallet html
 		"vanitylabelstep1": "Paso 1 - Genere su par de claves",

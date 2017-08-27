@@ -6,9 +6,6 @@
 		"paperlabelprivatekey": "Chave privada:",
 		"paperlabelencryptedkey": "Chave privada criptografada (Senha necessária)",
 		"bulkgeneratingaddresses": "Gerando endereços... ",
-		"brainalertpassphrasetooshort": "A senha introduzida é pequena demais.\n\n",
-		"brainalertpassphrasewarning": "Aviso: É importante que você escolha uma senha forte, para evitar ataques de força bruta que tentem adivinhar sua senha e roubar seus bitcoins.",
-		"brainalertpassphrasedoesnotmatch": "As senhas digitadas não são iguais.",
 		"detailalertnotvalidprivatekey": "O texto que você digitou não é uma chave privada válida",
 		"detailconfirmsha256": "O texto que você digitou não é uma chave privada válida\n\nDeseja usar esse texto como se fosse uma senha e gerar uma chave privada usando um hash SHA256 dessa senha?\n\nAviso: É importante escolher uma senha forte para evitar ataques de força bruta que tentem adivinhá-la e roubar seus bitcoins.",
 		"bip38alertincorrectpassphrase": "Senha incorreta para essa chave privada criptografada.",
@@ -27,7 +24,6 @@
 		"singlewallet": "Carteira única",
 		"paperwallet": "Carteira em papel",
 		"bulkwallet": "Múltiplos endereços",
-		"brainwallet": "Carteira mental",
 		"vanitywallet": "Carteira personalizada",
 		"splitwallet": "Carteira fracionada",
 		"detailwallet": "Detalhes da carteira",
@@ -107,16 +103,6 @@
 		"bulklabela2li3": "Ofrece una alternativa en el carro de la compra de tu web para que los clientes paguen con Bitcoin. Cuando el cliente elija pagar con Bitcoin, les muestras una de las direcciones de la base de datos como su \"dirección de pago\" y guardas esto junto con el pedido.",
 		"bulklabela2li4": "Ahora te hace falta recibir una notificación del pago. Busca en google \"notificación de pagos bitcoin\" (o \"bitcoin payment notification\" en inglés) y suscríbete a alguno de los servicios que aparezcan. Hay varios de ellos, que te pueden notificar vía Web services, API, SMS, email, etc. Una vez te llegue la notificación, lo cual puede ser automatizado, entonces ya puedes procesar el pedido. Para comprobar a mano si has recibido un pago, puedes usar Block Explorer: reemplaza DIRECCION a continuación por la dirección que estés comprobando. La transacción puede tardar entre 10 minutos y una hora en ser confirmada. <br />http://www.blockexplorer.com/address/DIRECCION<br /><br />Puedes ver las transacciones sin confirmar en: http://blockchain.info/ <br />Las transacciones sin confirmar suelen aparecer ahí en unos 30 segundos.",
 		"bulklabela2li5": "Las bitcoins que recibas se almacenarán de forma segura en la cadena de bloques. Usa la cartera original que generaste en el paso 1 para usarlas.",
-
-		// brain wallet html
-		"brainlabelenterpassphrase": "Senha:",
-		"brainlabelshow": "Mostrar",
-		"brainprint": "Imprimir",
-		"brainlabelconfirm": "Confirmar senha:",
-		"brainview": "Ver",
-		"brainalgorithm": "Algoritmo: SHA256(senha)",
-		"brainlabelbitcoinaddress": "Enderçeo Bitcoin:",
-		"brainlabelprivatekey": "Chave privada (Wallet Import Format):",
 
 		// vanity wallet html
 		"vanitylabelstep1": "Passo 1 - Gere seu par de chaves",

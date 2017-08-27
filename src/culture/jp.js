@@ -6,9 +6,6 @@
 		"paperlabelprivatekey": "プライベートキー",
 		"paperlabelencryptedkey": "暗号化されたプライベートキー(パスワード必須)",
 		"bulkgeneratingaddresses": "アドレス生成中...",
-		"brainalertpassphrasetooshort": "パスワードが短すぎます \n\n",
-		"brainalertpassphrasewarning": "注意：強いパスワードを選ばないとプライベートキーを安易に当てられてビットコインを盗まれてしまいます。<br>なお、<b>UTF-8の文字も使えるため、キーボードが半角か全角か今一度ご確認下さい。</b>",
-		"brainalertpassphrasedoesnotmatch": "パスワードが一致しません",
 		"detailalertnotvalidprivatekey": "入力された文字列は有効なプライベートキーではありません。",
 		"detailconfirmsha256": "入力された文字列は有効なプライベートキーではありません。\n\n代わりにこの文字列をパスワードとして、SHA256ハッシュを用いプライベートキーを生成しますか？\n\n注意: 強いパスワードを選ばないとプライベートキーを安易に当てられてビットコインを盗まれてしまいます。",
 		"bip38alertincorrectpassphrase": "暗号化されたプライベートキーに一致しないパスワードです。",
@@ -27,7 +24,6 @@
 		"singlewallet": "シングルウォレット",
 		"paperwallet": "ペーパーウォレット",
 		"bulkwallet": "大量ウォレット",
-		"brainwallet": "暗記ウォレット",
 		"vanitywallet": "カスタムウォレット",
 		"splitwallet": "Split Wallet", //TODO: please translate
 		"detailwallet": "ウォレットの詳細",
@@ -105,16 +101,6 @@
 		"bulklabela2li3": "サイトのショッピングカート機能にビットコインのリンクを追加して下さい。クリックされた時、お値段と先ほどアップしたビットコインアドレスが順番に出てくるようにしておいて下さい(1取引1アドレス)。注文の情報と一緒に、このアドレスも一緒に保存して、後で紐付けられるようにしておいて下さい。",
 		"bulklabela2li4": "後は支払いの通知を受けないと注文を通すか否か分かりません。グーグルで「bitcoin payment notification」と検索したら、SMS、メール、APIなどでビットコインの支払いがあった際教えてくれます。これをコードの中に組み込んで、支払いがあったら注文を通すようにもできます。手動で送金があったかを見る場合、blockchain.infoに行き、宛先のアドレスを入力すれば、取引履歴から送金の事実を確認できます。大体送金の30秒後に表示され、10分～1時間の間に「確認」されます。",
 		"bulklabela2li5": "送られたビットコインはブロックチェーンにて安全に保管されます。送金するには1番で作成したウォレットを何らかのビットコインソフトに取り込んでご利用下さい。",
-
-		// brain wallet html
-		"brainlabelenterpassphrase": "パスワード",
-		"brainlabelshow": "表示",
-		"brainprint": "印刷",
-		"brainlabelconfirm": "パスワードをもう一度",
-		"brainview": "アドレスを見せる",
-		"brainalgorithm": "アルゴリズム SHA256 (パスワード)",
-		"brainlabelbitcoinaddress": "ビットコインアドレス",
-		"brainlabelprivatekey": "プライベートキー(WIF形式)",
 
 		// vanity wallet html
 		"vanitylabelstep1": "ステップ１「ステップ１キーペア」を生成",

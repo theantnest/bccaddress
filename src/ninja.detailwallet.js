@@ -53,20 +53,6 @@
 			if (btcKey.error != null) {
 				alert(translator.get("detailalertnotvalidprivatekey") + "\n" + btcKey.error);
 			}
-			else if (btcKey.priv == null) {
-				// enforce a minimum passphrase length
-				if (key.length >= wallets.brainwallet.minPassphraseLength) {
-					// Deterministic Wallet confirm box to ask if user wants to SHA256 the input to get a private key
-					var usePassphrase = confirm(translator.get("detailconfirmsha256"));
-					if (usePassphrase) {
-						var bytes = Crypto.SHA256(key, { asBytes: true });
-						btcKey = new Bitcoin.ECKey(bytes);
-					}
-				}
-				else {
-					alert(translator.get("detailalertnotvalidprivatekey"));
-				}
-			}
 			return btcKey;
 		},
 
