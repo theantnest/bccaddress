@@ -105,7 +105,7 @@
 		}
 		document.getElementById("generate").style.display = "none";
 		// update labels for dependent wallets
-		var culture = (ninja.getQueryString()["culture"] == null ? "en" : ninja.getQueryString()["culture"]);
+		culture = ninja.translator.currentCulture;
 		ninja.translator.translate(culture);
 		ninja.seeder.removePoints();
 	}
