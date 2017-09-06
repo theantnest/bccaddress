@@ -6,9 +6,6 @@
 		"paperlabelprivatekey": "Clé privée:",
 		"paperlabelencryptedkey": "Clé privée encryptée (Mot de passe requis)",
 		"bulkgeneratingaddresses": "Création de l'adresse Bitcoin Cash... ",
-		"brainalertpassphrasetooshort": "Le mot de passe que vous avez saisi est trop court.\n\n",
-		"brainalertpassphrasewarning": "Attention: choisir un mot de passe sécuritaire est important pour vous protéger des attaques par force brute visant à trouver votre mot de passe et voler vos Bitcoin Cash.",
-		"brainalertpassphrasedoesnotmatch": "Le mot de passe saisi ne correspond pas.",
 		"detailalertnotvalidprivatekey": "La clé privée que vous avez entré est invalide.",
 		"detailconfirmsha256": "La clé privée que vous avez entré est invalide.\n\nVoulez-vous utiliser ce texte comme mot de passe pour une clé privée hacher appartir de celui-ci?\n\nAttention: choisir un mot de passe sécuritaire est important pour vous protéger des attaques par force brute visant à trouver votre mot de passe et voler vos Bitcoin Cash.",
 		"bip38alertincorrectpassphrase": "Ce mot de passe est incorrect pour cette clé privée encryptée.", //TODO: please translate
@@ -27,7 +24,6 @@
 		"singlewallet": "Porte-monnaie simple",
 		"paperwallet": "Porte-monnaie papier",
 		"bulkwallet": "Porte-monnaie en vrac",
-		"brainwallet": "Porte-monnaie cerveau",
 		"vanitywallet": "Porte-monnaie de courtoisie",
 		"splitwallet": "Porte-monnaie divisé",
 		"detailwallet": "Détails du porte-monnaie",
@@ -107,16 +103,6 @@
 		"bulklabela2li3": "Ajoutez une option dans votre panier en ligne afin que vos clients puissent vous payer en Bitcoin Cash. Quand un client choisi de vous payer en Bitcoin Cash, vous affichez une des adresses de votre base de donnée comme \"adresse de paiment\" pour votre client et sauvegarder cette adresse avec sa commande.",
 		"bulklabela2li4": "Vous avez maintenant besoin d'être avisé quand le paiement est reçu. Cherchez \"bitcoin payment notification\" sur Google et inscrivez-vous à un service de notification de paiement Bitcoin Cash. Il y a plusieurs services qui vous avertiront via des services Web, API, SMS, Email, etc. Une fois que vous avez reçu l'avis, qui devrait être programmée automatiquement, vous pouvez traiter la commande de votre client. Pour vérifier manuellement si un paiement est arrivé, vous pouvez utiliser un explorateur. La confirmation de la transaction pourrait prendre de 10 à 60 minutes pour être confirmée.",
 		"bulklabela2li5": "Vos Bitcoin Cash s'accumuleront de façon sécuritaire dans la chaîne de bloc. Utilisez le porte-monnaie original que vous avez généré à l'étape 1 pour les dépenser.",
-
-		// brain wallet html
-		"brainlabelenterpassphrase": "Saisir votre mot de passe: ",
-		"brainlabelshow": "Afficher?",
-		"brainprint": "Imprimer",
-		"brainlabelconfirm": "Confirmer le mot de passe: ",
-		"brainview": "Visualiser",
-		"brainalgorithm": "Algorithme: SHA256",
-		"brainlabelbitcoinaddress": "Adresse Bitcoin Cash:",
-		"brainlabelprivatekey": "Clé Privée (format d'importation de porte-monnaie):",
 
 		// vanity wallet html
 		"vanitylabelstep1": "Étape 1 - Générer votre paire de clés \"étape 1\"",
