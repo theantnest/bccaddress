@@ -32,7 +32,7 @@
 		"detailwallet": "Détails du porte-monnaie",
 
 		// footer html
-		"footerlabeldonations": "Don: 1LTzRmha779gYTEcDFoXgSP8DsUeZMYk6H",
+		"footerlabeldonations": "Don: 1AqBBnvDqhaXvzaLnZxSwxBVQ7JnEMBihS",
 		"footerlabeltranslatedby": "Traduction: <b>checksum0</b> 1EsQy5Ry8guF6BuUgWCgBCQt11PCQhXqHA",
 		"footerlabelpgp": "PGP",
 		"footerlabelversion": "Historique des versions",
@@ -76,8 +76,8 @@
 		"singletip1": "<b>Un porte-monnaie Bitcoin Cash</b> est aussi simple qu'une paire de clés cryptographiques dont une correspond est privée est l'autre correspond à l'address Bitcoin Cash. Le porte-monnaie affiché ci-dessus a été généré pour vous dans votre propre navigateur internet.",
 		"singletip2": "<b>Pour garder en sécurité ce porte-monnaie,</b> vous devez l'imprimer ou, alternativement, enregistrer l'adresse de réception Bitcoin et la clé privée. Il est important de créer une copie de sauvegarde de la clé privée et de l'entreposer à un endroit sûr. Ce site n'a aucune base prédéterminée ou de sauvegarde de votre clé privée. Si vous êtes initiés à PGP, vous pouvez télécharger la version toute-en-1 de la page HTML et ainsi vérifier que vous avez une version authentique issue par l'auteur du site en comparant l'encryptage SHA1 de votre page HTML sauvegardée avec l'encryptage SHA1 disponible sur l'historique certifiée indiquée en bas de ce site. Si vous quittez ou rafraichissez ce site ou que vous appuyez sur \"générer une nouvelle adresse\" une nouvelle clé privée sera générée et la précédente clé privée affichée ne pourra plus être retrouvée. Votre clé privée Bitcoin Cash doit être gardée secrète. Celui qui connaît la clé privée aura la possibilité de dépenser tous les Bitcoin Cash accumulés et associés à l'adresse de réception. Si vous imprimez le porte-monnaie, pensez à le mettre à l'abri de l'eau dans un sac étanche. Traitez le porte-monnaie papier comme de l'argent en espèces.",
 		"singletip3": "<b>Pour ajouter</b> des fonds à votre porte-monnaie, envoyez des Bitcoin Cash à votre adresse de réception.",
-		"singletip4": "<b>Vous pouvez vérifier le contenu de votre porte-monnaie</b> en consultant https://blockchair.com/bitcoin-cash/blocks o https://cash.coin.dance/ et en y tapant votre adresse de réception Bitcoin Cash.",
-		"singletip5": "<b>Télécharger un des clients Bitcoin Cash</b> populaires pour dépenser vos Bitcoin cash en y important votre clé privée. Garder à l'esprit que lorsque vous importez une clé privée dans un client et que vous dépenser le contenu, vos fonds seront attaché aux autres clés privés contenu dans le client. Lorsque vous effectez une transaction, votre change sera envoyé vers une autre address Bitcoin Cash déja présente dans le client. Vous devez donc faire une sauvegarde de ce porte-monnaie et le garder en sureté en tout temps puisque le reste de vos fonds y sera contenu. Satoshi suggère de ne jamais effacer un porte-monnaie.",
+		"singletip4": "<b>Vous pouvez vérifier le contenu de votre porte-monnaie</b> en consultant <a href=\"https://blockchair.com/bitcoin-cash/blocks\">blockchair.com</a> et en y tapant votre adresse de réception Bitcoin Cash.",
+		"singletip5": "<b>Télécharger un des <a href=\"https://www.bitcoinabc.org/\">client Bitcoin Cash</a></b> populaires pour dépenser vos Bitcoin cash en y important votre clé privée. Garder à l'esprit que lorsque vous importez une clé privée dans un client et que vous dépenser le contenu, vos fonds seront attaché aux autres clés privés contenu dans le client. Lorsque vous effectez une transaction, votre change sera envoyé vers une autre address Bitcoin Cash déja présente dans le client. Vous devez donc faire une sauvegarde de ce porte-monnaie et le garder en sureté en tout temps puisque le reste de vos fonds y sera contenu. Satoshi suggère de ne jamais effacer un porte-monnaie.",
 		"singleshare": "PARTAGER",
 		"singlesecret": "SECRET",
 		"combinelabelentershares": "Entrez les parts disponibles (séparer par un espace blanc)",
