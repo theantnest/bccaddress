@@ -14,8 +14,8 @@
 		"vanityalertinvalidinputpublickeysmatch": "Entrée non valide. La clé publique des deux entrées est identique. Vous devez saisir deux clés différentes.",
 		"vanityalertinvalidinputcannotmultiple": "Entrée non valide. Il n'est pas possible de multiplier deux clés publiques. Sélectionner 'Ajouter' pour combiner deux clés publiques pour obtenir une adresse Bitcoin Cash.",
 		"vanityprivatekeyonlyavailable": "Cette option est seulement disponible si vous combinez deux clés privées",
-		"vanityalertinvalidinputprivatekeysmatch": "Entrée non valide. La clé privée des deux entrées est identique. Vous devez saisir deux clés différentes.",		
-		
+		"vanityalertinvalidinputprivatekeysmatch": "Entrée non valide. La clé privée des deux entrées est identique. Vous devez saisir deux clés différentes.",
+
 		// header and menu html
 		"tagline": "Générateur de porte-monnaie papier pour Bitcoin Cash hors-ligne Javascript", // I didn't add the client-side as it would be redundant in French and sentence is already quite long. Not camel case either as it is not used in French.
 		"generatelabelbitcoinaddress": "Création de l'adresse Bitcoin Cash...",
@@ -32,7 +32,7 @@
 		"detailwallet": "Détails du porte-monnaie",
 
 		// footer html
-		"footerlabeldonations": "Don: 1AqBBnvDqhaXvzaLnZxSwxBVQ7JnEMBihS",
+		"footerlabeldonations": "Don:",
 		"footerlabeltranslatedby": "Traduction: <b>checksum0</b> 1EsQy5Ry8guF6BuUgWCgBCQt11PCQhXqHA",
 		"footerlabelpgp": "PGP",
 		"footerlabelversion": "Historique des versions",
@@ -90,7 +90,7 @@
 		"paperprint": "Imprimer",
 		"paperlabelBIPpassphrase": "mot de passe:",
 		"paperlabelencrypt": "Encrypter avec BIP38?",
-	
+
 		// bulk wallet html
 		"bulklabelstartindex": "Commencer à l'index:",
 		"bulklabelrowstogenerate": "Nombre de colonnes à générer:",
@@ -107,7 +107,7 @@
 		"bulklabela2li3": "Ajoutez une option dans votre panier en ligne afin que vos clients puissent vous payer en Bitcoin Cash. Quand un client choisi de vous payer en Bitcoin Cash, vous affichez une des adresses de votre base de donnée comme \"adresse de paiment\" pour votre client et sauvegarder cette adresse avec sa commande.",
 		"bulklabela2li4": "Vous avez maintenant besoin d'être avisé quand le paiement est reçu. Cherchez \"bitcoin payment notification\" sur Google et inscrivez-vous à un service de notification de paiement Bitcoin Cash. Il y a plusieurs services qui vous avertiront via des services Web, API, SMS, Email, etc. Une fois que vous avez reçu l'avis, qui devrait être programmée automatiquement, vous pouvez traiter la commande de votre client. Pour vérifier manuellement si un paiement est arrivé, vous pouvez utiliser un explorateur. La confirmation de la transaction pourrait prendre de 10 à 60 minutes pour être confirmée.",
 		"bulklabela2li5": "Vos Bitcoin Cash s'accumuleront de façon sécuritaire dans la chaîne de bloc. Utilisez le porte-monnaie original que vous avez généré à l'étape 1 pour les dépenser.",
-		
+
 		// vanity wallet html
 		"vanitylabelstep1": "Étape 1 - Générer votre paire de clés \"étape 1\"",
 		"vanitynewkeypair": "Générer",

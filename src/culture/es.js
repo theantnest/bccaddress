@@ -44,9 +44,9 @@
 		"footerlabelnowarranty": "Sin garantías.",
 
 		// status html
-		"statuslabelcryptogood": "&#10004; ¡Bien!", 
+		"statuslabelcryptogood": "&#10004; ¡Bien!",
 		"statuslabelcryptogood1": "Su navegador puede generar claves criptográficas aleatorias usando window.crypto.getRandomValues",
-		"statusokcryptogood": "OK", 
+		"statusokcryptogood": "OK",
 		"statuslabelcryptobad": "&times; ¡Oh no!",
 		"statuslabelcryptobad1": "Su navegador NO soporta window.crypto.getRandomValues. Debe usar un navegador actualizado con este generador para incrementar la seguridad de las claves generadas.",
 		"statusokcryptobad": "OK",
@@ -60,7 +60,7 @@
 		"statuslabelprotocolgood1": "Está ejecutando este generador desde su computador local. <br />Pista: Asegúrese de que esta offine al intentarlo.", // DONE. Even though I get the feeling that this phrase is missing something. Could you give me some more context to it?
 		"statusokprotocolgood": "OK",
 		"statuslabelprotocolbad": "&#9888; ¡Piénselo dos veces!",
-		"statuslabelprotocolbad1": "Al parecer está ejecutando este generador en línea desde un sitio en vivo. Para las carteras valiosas se recomienda", 
+		"statuslabelprotocolbad1": "Al parecer está ejecutando este generador en línea desde un sitio en vivo. Para las carteras valiosas se recomienda",
 		"statuslabelprotocolbad2": "descargar",
 		"statuslabelprotocolbad3": "el archivo zip desde GitHub y ejecutar este generador offline como un archivo html local.",
 		"statusokprotocolbad": "OK",
