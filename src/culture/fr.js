@@ -20,7 +20,7 @@
 		"tagline": "Générateur de porte-monnaie papier pour Bitcoin Cash hors-ligne Javascript", // I didn't add the client-side as it would be redundant in French and sentence is already quite long. Not camel case either as it is not used in French.
 		"generatelabelbitcoinaddress": "Création de l'adresse Bitcoin Cash...",
 		"generatelabelmovemouse": "Bougez votre souris pour ajouter l'entropie nécessaire...",
-		"generatelabelkeypress": "Oy tapez des caractères aléatoires dans le rectangle blanc suivant",
+		"generatelabelkeypress": "Ou tapez des caractères aléatoires dans le rectangle blanc suivant",
 		"singlewallet": "Porte-monnaie simple",
 		"paperwallet": "Porte-monnaie papier",
 		"bulkwallet": "Porte-monnaie en vrac",
