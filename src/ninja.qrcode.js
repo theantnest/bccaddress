@@ -1,5 +1,9 @@
 ﻿(function (ninja) {
 	var qrC = ninja.qrCode = {
+		scheme: function() {
+			return 'bitcoincash:';
+		},
+
 		// determine which type number is big enough for the input text length
 		getTypeNumber: function (text) {
 			var lengthCalculation = text.length * 8 + 12; // length as calculated by the QRCode
@@ -17,7 +21,6 @@
 		},
 
 		createCanvas: function (text, sizeMultiplier) {
-			sizeMultiplier = (sizeMultiplier == undefined) ? 2 : sizeMultiplier; // default 2
 			// create the qrcode itself
 			var typeNumber = qrC.getTypeNumber(text);
 			var qrcode = new QRCode(typeNumber, QRCode.ErrorCorrectLevel.H);
@@ -54,12 +57,26 @@
 		//		"id1" is the id of a div element where you want a QRCode inserted.
 		//		"string1" is the string you want encoded into the QRCode.
 		showQrCode: function (keyValuePair, sizeMultiplier) {
+			sizeMultiplier = (sizeMultiplier == undefined) ? 2 : sizeMultiplier; // default 2
+
 			for (var key in keyValuePair) {
 				var value = keyValuePair[key];
+				origValueSize = value.length;
+				value = ninja.qrCode.scheme() + value;
+				valueSize = value.length;
+				adjustment = 0;
+				// Tweak adjustment for addresses and regular
+				// private keys.
+				if (value.length == 46) {
+					adjustment = 0.065;
+				} else if (value.length == 64) {
+					adjustment = 0.1;
+				}
+				multiplier = sizeMultiplier * ((origValueSize/valueSize) + adjustment);
 				try {
 					if (document.getElementById(key)) {
 						document.getElementById(key).innerHTML = "";
-						document.getElementById(key).appendChild(qrC.createCanvas(value, sizeMultiplier));
+						document.getElementById(key).appendChild(qrC.createCanvas(value, multiplier));
 					}
 				}
 				catch (e) {	}
