@@ -74,7 +74,7 @@
 		"singletip2": "<b>妥善保管你的钱包</b> 为了保护你的钱包，建议你用打印或者其他方式来保管你的私钥和地址。把你的私钥备份保存在安全、保密的位置是必要的。本站不提供私钥的相关知识，请自行学习。如果你熟悉PGP，你也可以下载这个HTML文件（它是单文件全功能的），用它的SHA256摘要和作者在本站页脚留下的相比对。本工具支持离线使用，这样它生成的私钥-地址就很难被监视了。比特币私钥必须保密，任何知道你私钥的人都可以随意花费其对应地址的比特币。你可以打印你的钱包（即纸钱包），把它装进一个防水的口袋里——就像你在保管纸币一样。",
 		"singletip3": "<b>获得比特币: </b> 让别人往你的地址汇入比特币。",
 		"singletip4": "<b>查询余额：</b> 访问或者https://blockchair.com/bitcoin-cash/blocks可以查看到任何地址中的比特币余额。",
-		"singletip5": "<b>花费比特币：</b> 你可以下载比特币客户端，或者访问https://blockchair.com/bitcoin-cash/blocks之类的在线钱包网站，导入你的比特币私钥来花费对应地址上的比特币。如果你选择了客户端，每当你发送一笔钱之后，找零有可能会发回客户端生成的另外一个地址，记得备份客户端生成的钱包文件，否则你可能丢钱。比特币作者中本聪说过，不要删除任何钱包，因为你的亲戚朋友说不定还会往你的旧地址里汇款。",
+		"singletip5": "<b>Spend your Bitcoin Cash</b> by downloading one of the popular <a href=\"https://www.bitcoincash.org/#wallets\">Bitcoin Cash p2p clients</a> and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a Bitcoin Cash p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another bitcoin address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining bitcoins will be stored there. Satoshi advised that one should never delete a wallet.",
 
 		// paper wallet html
 		"paperlabelhideart": "隐藏背景图案",
