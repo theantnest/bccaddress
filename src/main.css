@@ -6,7 +6,7 @@ a { position: relative; z-index: 20; }
 .right { text-align: right; }
 .walletarea, #paperarea { display: none; }
 hr { margin: 20px 0; border-top: 2px dashed #008000; }
-.keyarea { height: 110px; text-align: left; position: relative; padding: 5px; }
+.keyarea { text-align: left; position: relative; padding: 5px; }
 .keyarea .public { float: left; }
 .keyarea .pubaddress { display: inline-block; height: 40px; padding: 0 0 0 10px; float: left; }
 .keyarea .privwif { margin: 0;  float: right; text-align: right; padding: 0 20px 0 0; position: relative; }
@@ -34,7 +34,6 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #generate { font-family: monospace; font-size: 1.25em; height: 305px; text-align: left; position: relative; padding: 20px 10px; clear: both; }
 #generate span { padding: 5px 5px 0 5px; }
 #generatekeyinput { position: relative; z-index: 20; display: block; width: 620px; margin-top: 5px; }
-#keyarea { height: 250px; }
 #keyarea .pubaddress { float: none; display: block; padding: 0; height: auto; }
 #keyarea .label { text-decoration: none; }
 #keyarea .privwif { float: none; text-align: right; position: relative; padding: 0; }
