@@ -104,10 +104,10 @@ ninja.wallets.paperwallet = {
 			ninja.privateKey.BIP38GenerateECAddressAsync(ninja.wallets.paperwallet.intermediatePoint, compressed, function (address, encryptedKey) {
 				Bitcoin.KeyPool.push(new Bitcoin.Bip38Key(address, encryptedKey));
 				if (ninja.wallets.paperwallet.useArtisticWallet) {
-					ninja.wallets.paperwallet.showArtisticWallet(idPostFix, address, encryptedKey);
+					ninja.wallets.paperwallet.showArtisticWallet(idPostFix, bchaddr.toCashAddress(address), encryptedKey);
 				}
 				else {
-					ninja.wallets.paperwallet.showWallet(idPostFix, address, encryptedKey);
+					ninja.wallets.paperwallet.showWallet(idPostFix, bchaddr.toCashAddress(address), encryptedKey);
 				}
 			});
 		}
@@ -117,10 +117,10 @@ ninja.wallets.paperwallet = {
 			var bitcoinAddress = key.getBitcoinAddress();
 			var privateKeyWif = key.getBitcoinWalletImportFormat();
 			if (ninja.wallets.paperwallet.useArtisticWallet) {
-				ninja.wallets.paperwallet.showArtisticWallet(idPostFix, bitcoinAddress, privateKeyWif);
+				ninja.wallets.paperwallet.showArtisticWallet(idPostFix, bchaddr.toCashAddress(bitcoinAddress), privateKeyWif);
 			}
 			else {
-				ninja.wallets.paperwallet.showWallet(idPostFix, bitcoinAddress, privateKeyWif);
+				ninja.wallets.paperwallet.showWallet(idPostFix, bchaddr.toCashAddress(bitcoinAddress), privateKeyWif);
 			}
 		}
 	},
@@ -183,10 +183,10 @@ ninja.wallets.paperwallet = {
 
 	showArtisticWallet: function (idPostFix, bitcoinAddress, privateKey) {
 		var keyValuePair = {};
-		keyValuePair["qrcode_public" + idPostFix] = bitcoinAddress;
+		keyValuePair["qrcode_public" + idPostFix] = bchaddr.toCashAddress(bitcoinAddress);
 		keyValuePair["qrcode_private" + idPostFix] = privateKey;
 		ninja.qrCode.showQrCode(keyValuePair, 2.5);
-		document.getElementById("btcaddress" + idPostFix).innerHTML = bitcoinAddress;
+		document.getElementById("btcaddress" + idPostFix).innerHTML = bchaddr.toCashAddress(bitcoinAddress).replace(/^bitcoincash:/, '');
 
 		if (ninja.wallets.paperwallet.encrypt) {
 			var half = privateKey.length / 2;
@@ -228,7 +228,7 @@ ninja.wallets.paperwallet = {
 		var limit;
 		var limitperpage;
 
-		document.getElementById("paperkeyarea").style.fontSize = "100%";
+		document.getElementById("paperkeyarea").style.fontSize = "95%";
 		if (!hideArt.checked) {
 			limit = ninja.wallets.paperwallet.pageBreakAtArtisticDefault;
 			limitperpage = ninja.wallets.paperwallet.pageBreakAtArtisticDefault;

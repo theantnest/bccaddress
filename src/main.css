@@ -6,6 +6,7 @@ a { position: relative; z-index: 20; }
 .right { text-align: right; }
 .walletarea, #paperarea { display: none; }
 hr { margin: 20px 0; border-top: 2px dashed #008000; }
+#paperkeyarea .keyarea { height: 110px; }
 .keyarea { text-align: left; position: relative; padding: 5px; }
 .keyarea .public { float: left; }
 .keyarea .pubaddress { display: inline-block; height: 40px; padding: 0 0 0 10px; float: left; }
@@ -59,7 +60,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
                                         padding: 5px 5px 2px 5px; }
 #paperarea .artwallet .btcaddress  
 {
-    position: absolute; top: 240px; left: 139px; z-index: 100; font-size: 10px; background-color: transparent;
+    position: absolute; top: 225px; left: 142px; z-index: 100; font-size: 8px; background-color: transparent;
     font-weight:bold; color: #000000; margin: 0;
         -webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
         -moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
@@ -89,7 +90,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 }
 #bulkarea .body { padding: 5px 0 0 0; }
 #bulkarea .format { font-style: italic; font-size: 90%; }
-#bulktextarea { font-size: 90%; width: 98%; margin: 4px 0 0 0; }
+#bulktextarea { font-size: 85%; width: 98%; margin: 4px 0 0 0; }
 #detailkeyarea { padding: 10px; }
 #detailarea { margin: 0; text-align: left; }
 #detailarea .notes { text-align: left; font-size: 80%; padding: 0 0 20px 0; }
@@ -206,7 +207,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 
     .footer { font-size: 90%; clear: both; padding: 10px 0 10px 0; margin: 0; border-top: 2px solid #4cca47; }
     .footer div span.item { padding: 10px; }
-    .footer .authorbtc { float: left; width: 450px; }
+    .footer .authorbtc { float: left; width: 500px; }
     .footer .authorbtc span.item { text-align: left; display: block; padding: 0 20px; }
     .footer .authorbtc div { position: relative; z-index: 100; }
     .footer .github { position: relative; }

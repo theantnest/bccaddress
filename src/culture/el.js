@@ -30,7 +30,7 @@
 
 		// footer html
 		"footerlabeldonations": "Δωρεές:",
-		"footerlabeltranslatedby": "Μετάφραση: <a href='http://BitcoinX.gr/'><b>BitcoinX.gr</b></a>BTC 1BitcoiNxkUPcTFxwMqxhRiPEiQRzYskf6",
+		"footerlabeltranslatedby": "Μετάφραση: <a href='http://BitcoinX.gr/'><b>BitcoinX.gr</b></a> BTC 1BitcoiNxkUPcTFxwMqxhRiPEiQRzYskf6",
 		"footerlabelpgp": "PGP",
 		"footerlabelversion": "ιστορικό εκδόσεων",
 		"footerlabelgithub": "Αποθετήριο GitHub",

@@ -20,7 +20,7 @@
 			try {
 				var key = new Bitcoin.ECKey(false);
 				key.setCompressed(true);
-				var bitcoinAddress = key.getBitcoinAddress();
+				var bitcoinAddress = bchaddr.toCashAddress(key.getBitcoinAddress());
 				var privateKeyWif = key.getBitcoinWalletImportFormat();
 				document.getElementById("btcaddress").innerHTML = bitcoinAddress;
 				document.getElementById("btcprivwif").innerHTML = privateKeyWif;

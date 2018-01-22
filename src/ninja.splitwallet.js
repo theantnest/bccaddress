@@ -55,8 +55,8 @@ ninja.wallets.splitwallet = {
 			var output = document.createElement("div");
 			output.setAttribute("id", "splitoutput");
 			var m = {};
-			output.appendChild(this.mkOutputRow(bitcoinAddress, "split_addr", "Bitcoin Address:    "));
-			m["split_addr"] = bitcoinAddress;
+			output.appendChild(this.mkOutputRow(bchaddr.toCashAddress(bitcoinAddress), "split_addr", "Bitcoin Cash Address:    "));
+			m["split_addr"] = bchaddr.toCashAddress(bitcoinAddress);
 
 			for (var i = 0; i < shares.length; i++) {
 				var id = "split_qr_" + i;
@@ -65,7 +65,7 @@ ninja.wallets.splitwallet = {
 			}
 
 			document.getElementById("splitstep1area").innerHTML = output.innerHTML;
-			ninja.qrCode.showQrCode(m);
+			ninja.qrCode.showQrCode(m, 4);
 
 			document.getElementById("splitstep1area").style.display = "block";
 			document.getElementById("splitstep1icon").setAttribute("class", "less");
