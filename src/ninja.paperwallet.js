@@ -104,7 +104,7 @@ ninja.wallets.paperwallet = {
 			ninja.privateKey.BIP38GenerateECAddressAsync(ninja.wallets.paperwallet.intermediatePoint, compressed, function (address, encryptedKey) {
 				Bitcoin.KeyPool.push(new Bitcoin.Bip38Key(address, encryptedKey));
 				if (ninja.wallets.paperwallet.useArtisticWallet) {
-					ninja.wallets.paperwallet.showArtisticWallet(idPostFix, bchaddr.toCashAddress(address), encryptedKey);
+					ninja.wallets.paperwallet.showArtisticWallet(idPostFix, address, encryptedKey);
 				}
 				else {
 					ninja.wallets.paperwallet.showWallet(idPostFix, bchaddr.toCashAddress(address), encryptedKey);
@@ -117,7 +117,7 @@ ninja.wallets.paperwallet = {
 			var bitcoinAddress = key.getBitcoinAddress();
 			var privateKeyWif = key.getBitcoinWalletImportFormat();
 			if (ninja.wallets.paperwallet.useArtisticWallet) {
-				ninja.wallets.paperwallet.showArtisticWallet(idPostFix, bchaddr.toCashAddress(bitcoinAddress), privateKeyWif);
+				ninja.wallets.paperwallet.showArtisticWallet(idPostFix, bitcoinAddress, privateKeyWif);
 			}
 			else {
 				ninja.wallets.paperwallet.showWallet(idPostFix, bchaddr.toCashAddress(bitcoinAddress), privateKeyWif);
