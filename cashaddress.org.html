@@ -16869,7 +16869,7 @@ ninja.publicKey = {
 			for (var key in keyValuePair) {
 				var value = keyValuePair[key];
 				origValueSize = value.length;
-				if (!value.startsWith(ninja.qrCode.scheme())) {
+				if (!value.startsWith(ninja.qrCode.scheme()) && (key.match(/addr/) || key.match(/public/))) {
 					value = ninja.qrCode.scheme() + value;
 				}
 				valueSize = value.length;
