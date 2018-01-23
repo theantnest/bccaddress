@@ -62,7 +62,7 @@
 						Bitcoin.KeyPool.push(new Bitcoin.Bip38Key(address, encryptedKey));
 
 						bulk.csv.push((bulk.csvRowLimit - bulk.csvRowsRemaining + bulk.csvStartIndex)
-										+ ",\"" + address + "\",\"" + encryptedKey
+										+ ",\"" + bchaddr.toCashAddress(address) + "\",\"" + encryptedKey
 										+ "\"");
 						document.getElementById("bulktextarea").value = translator.get("bulkgeneratingaddresses") + bulk.csvRowsRemaining;
 
@@ -75,7 +75,7 @@
 					var key = new Bitcoin.ECKey(false);
 					key.setCompressed(bulk.compressedAddrs);
 					bulk.csv.push((bulk.csvRowLimit - bulk.csvRowsRemaining + bulk.csvStartIndex)
-										+ ",\"" + key.getBitcoinAddress() + "\",\"" + key.toString("wif")
+										+ ",\"" + bchaddr.toCashAddress(key.getBitcoinAddress()) + "\",\"" + key.toString("wif")
 										//+	"\",\"" + key.toString("wifcomp")    // uncomment these lines to add different private key formats to the CSV
 										//+ "\",\"" + key.getBitcoinHexFormat() 
 										//+ "\",\"" + key.toString("base64") 

@@ -62,7 +62,9 @@
 			for (var key in keyValuePair) {
 				var value = keyValuePair[key];
 				origValueSize = value.length;
-				value = ninja.qrCode.scheme() + value;
+				if (!value.startsWith(ninja.qrCode.scheme()) && (key.match(/addr/) || key.match(/public/))) {
+					value = ninja.qrCode.scheme() + value;
+				}
 				valueSize = value.length;
 				adjustment = 0;
 				// Tweak adjustment for addresses and regular
@@ -71,6 +73,8 @@
 					adjustment = 0.065;
 				} else if (value.length == 64) {
 					adjustment = 0.1;
+				} else if (valueSize == 54) {
+					adjustment = -0.2;
 				}
 				multiplier = sizeMultiplier * ((origValueSize/valueSize) + adjustment);
 				try {

@@ -155,13 +155,13 @@
 				btcKey.setCompressed(false);
 				document.getElementById("detailprivhex").innerHTML = btcKey.toString().toUpperCase();
 				document.getElementById("detailprivb64").innerHTML = btcKey.toString("base64");
-				var bitcoinAddress = btcKey.getBitcoinAddress();
+				var bitcoinAddress = bchaddr.toCashAddress(btcKey.getBitcoinAddress());
 				var wif = btcKey.getBitcoinWalletImportFormat();
 				document.getElementById("detailpubkey").innerHTML = btcKey.getPubKeyHex();
 				document.getElementById("detailaddress").innerHTML = bitcoinAddress;
 				document.getElementById("detailprivwif").innerHTML = wif;
 				btcKey.setCompressed(true);
-				var bitcoinAddressComp = btcKey.getBitcoinAddress();
+				var bitcoinAddressComp = bchaddr.toCashAddress(btcKey.getBitcoinAddress());
 				var wifComp = btcKey.getBitcoinWalletImportFormat();			
 				document.getElementById("detailpubkeycomp").innerHTML = btcKey.getPubKeyHex();
 				document.getElementById("detailaddresscomp").innerHTML = bitcoinAddressComp;
