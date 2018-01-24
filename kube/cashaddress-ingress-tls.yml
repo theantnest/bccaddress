@@ -10,12 +10,20 @@ spec:
   tls:
   - hosts:
     - cashaddress.org
+    - www.cashaddress.org
     secretName: cashaddress-tls
   backend:
     serviceName: cashaddress
     servicePort: 88
   rules:
   - host: cashaddress.org
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: cashaddress
+          servicePort: 88
+  - host: www.cashaddress.org
     http:
       paths:
       - path: /
