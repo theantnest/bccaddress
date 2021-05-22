@@ -1,4 +1,4 @@
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: cashaddress-ingress
@@ -12,21 +12,29 @@ spec:
     - cashaddress.org
     - www.cashaddress.org
     secretName: cashaddress-tls
-  backend:
-    serviceName: cashaddress
-    servicePort: 88
+  defaultBackend:
+    service:
+      name: cashaddress
+      port:
+        number: 88
   rules:
   - host: cashaddress.org
     http:
       paths:
       - path: /
+        pathType: ImplementationSpecific
         backend:
-          serviceName: cashaddress
-          servicePort: 88
+          service:
+            name: cashaddress
+            port:
+              number: 88
   - host: www.cashaddress.org
     http:
       paths:
       - path: /
+        pathType: ImplementationSpecific
         backend:
-          serviceName: cashaddress
-          servicePort: 88
+          service:
+            name: cashaddress
+            port:
+              number: 88
