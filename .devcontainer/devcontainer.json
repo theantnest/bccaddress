@@ -1,0 +1,6 @@
+payment-request/PaymentRequestUpdateEvent/updateWith-duplicate-shipping-options-manual.https.html
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}
